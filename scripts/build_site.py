@@ -8,6 +8,9 @@ Endpoints (all JSON):
   /v1/pms.json                      every Prime Minister term
   /v1/pms/current.json              sitting Prime Minister
   /v1/national.json                 national symbols, heroes, dish, etc.
+  /v1/elections.json                every election since 1944 (after the backfill)
+  /v1/elections/<id>.json           one election, seat by seat, e.g. 1980-general
+  /v1/constituencies/<slug>.json    every result for one seat, e.g. saint-andrew-southern
 """
 from __future__ import annotations
 
@@ -53,6 +56,31 @@ def main() -> None:
     pms = json.loads((DATA / "pms.json").read_text())
     dump("pms/current.json", {"meta": pms["meta"], "data": next(t for t in pms["data"] if t["current"])})
     endpoints.append("/v1/pms/current.json")
+
+    # Election history (from scripts/backfill_elections.py)
+    hist = sorted((DATA / "history" / "elections").glob("*.json"))
+    if hist:
+        index, by_seat = [], {}
+        for f in hist:
+            doc = json.loads(f.read_text())
+            eid = doc["election"]["id"]
+            dump(f"elections/{eid}.json", doc)
+            endpoints.append(f"/v1/elections/{eid}.json")
+            index.append({**doc["election"], **doc["summary"], "url": f"/v1/elections/{eid}.json"})
+            for r in doc["results"]:
+                by_seat.setdefault(slug(r["constituency"]), {"constituency": r["constituency"], "elections": []})[
+                    "elections"].append({"election": eid, "date": doc["election"]["date"],
+                                         "winner": r["winner"], "margin": r["margin"],
+                                         "turnout_pct": r["turnout_pct"], "status": r["status"]})
+        index.sort(key=lambda e: (e["year"], e["id"]), reverse=True)
+        dump("elections.json", {"meta": {"title": "Jamaican parliamentary elections since 1944",
+                                         "source": "Electoral Commission of Jamaica"}, "data": index})
+        endpoints.append("/v1/elections.json")
+        for s, seat in by_seat.items():
+            seat["elections"].sort(key=lambda e: e["election"], reverse=True)
+            dump(f"constituencies/{s}.json", {"data": seat})
+        dump("constituencies.json", {"data": sorted(by_seat)})
+        endpoints += ["/v1/constituencies.json", "/v1/constituencies/<slug>.json"]
 
     dump("index.json", {
         "name": "Jamaica Data API",

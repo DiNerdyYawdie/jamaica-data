@@ -1,0 +1,62 @@
+name: Backfill election history (one-time)
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only these years or event ids, comma-separated (blank = all 36 elections)"
+        required: false
+        default: ""
+      force:
+        description: "Redo elections that were already saved"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      # Pick up elections finished by an earlier run whose PR isn't merged yet.
+      - name: Resume from previous run
+        run: |
+          git fetch origin backfill-elections 2>/dev/null \
+            && git checkout origin/backfill-elections -- data/history 2>/dev/null \
+            && echo "Resuming: $(ls data/history/elections | wc -l) elections already done" \
+            || echo "Fresh start"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt -r requirements-backfill.txt
+
+      - name: Read ECJ PDFs with Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/backfill_elections.py \
+            --only "${{ inputs.only }}" ${{ inputs.force && '--force' || '' }}
+
+      # Keep whatever finished even if a later election hit the rate limit.
+      - name: Open pull request for review
+        if: always()
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: backfill-elections
+          commit-message: "data: election history backfill"
+          title: "🗳️ Election history backfill: review before merging"
+          body-path: .cache/backfill_report.md
+          add-paths: data/history/**
+          labels: data-update

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "National symbols, heroes and facts of Jamaica",
+    "source": "Curated by hand (rarely changes). Reference: Jamaica Information Service (jis.gov.jm).",
+    "license": "CC BY 4.0 Di Nerd Apps",
+    "updated_at": "2026-09-29T00:00:00Z"
+  },
+  "data": {
+    "motto": "Out of Many, One People",
+    "independence_day": "1962-08-06",
+    "capital": "Kingston",
+    "currency": { "name": "Jamaican dollar", "code": "JMD" },
+    "parishes": [
+      { "name": "Kingston", "capital": "Kingston", "county": "Surrey" },
+      { "name": "Saint Andrew", "capital": "Half Way Tree", "county": "Surrey" },
+      { "name": "Saint Thomas", "capital": "Morant Bay", "county": "Surrey" },
+      { "name": "Portland", "capital": "Port Antonio", "county": "Surrey" },
+      { "name": "Saint Mary", "capital": "Port Maria", "county": "Middlesex" },
+      { "name": "Saint Ann", "capital": "St. Ann's Bay", "county": "Middlesex" },
+      { "name": "Saint Catherine", "capital": "Spanish Town", "county": "Middlesex" },
+      { "name": "Clarendon", "capital": "May Pen", "county": "Middlesex" },
+      { "name": "Manchester", "capital": "Mandeville", "county": "Middlesex" },
+      { "name": "Saint Elizabeth", "capital": "Black River", "county": "Cornwall" },
+      { "name": "Westmoreland", "capital": "Savanna-la-Mar", "county": "Cornwall" },
+      { "name": "Hanover", "capital": "Lucea", "county": "Cornwall" },
+      { "name": "Saint James", "capital": "Montego Bay", "county": "Cornwall" },
+      { "name": "Trelawny", "capital": "Falmouth", "county": "Cornwall" }
+    ],
+    "symbols": {
+      "dish": "Ackee and saltfish",
+      "fruit": "Ackee",
+      "bird": "Doctor bird (red-billed streamertail)",
+      "flower": "Lignum vitae",
+      "tree": "Blue mahoe",
+      "flag_colours": ["Black", "Green", "Gold"]
+    },
+    "national_heroes": [
+      "Nanny of the Maroons",
+      "Sam Sharpe",
+      "Paul Bogle",
+      "George William Gordon",
+      "Marcus Garvey",
+      "Sir Alexander Bustamante",
+      "Norman Washington Manley"
+    ]
+  }
+}

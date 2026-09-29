@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "Prime Ministers of Jamaica",
+    "source": "https://www.wikidata.org/wiki/Q1430943",
+    "license": "CC0 (Wikidata) + manual corrections",
+    "updated_at": "2026-09-29T07:23:29Z"
+  },
+  "data": [
+    {
+      "wikidata_id": "Q265034",
+      "name": "Alexander Bustamante",
+      "start": "1962-04-29",
+      "end": "1967-02-23",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 1,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q1240351",
+      "name": "Donald Sangster",
+      "start": "1967-02-23",
+      "end": "1967-04-11",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 2,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q982324",
+      "name": "Hugh Shearer",
+      "start": "1967-04-11",
+      "end": "1972-03-02",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 3,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q365395",
+      "name": "Michael Manley",
+      "start": "1972-03-02",
+      "end": "1980-11-01",
+      "parties": [
+        "People's National Party"
+      ],
+      "term_number": 4,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q470950",
+      "name": "Edward Seaga",
+      "start": "1980-11-01",
+      "end": "1989-02-10",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 5,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q365395",
+      "name": "Michael Manley",
+      "start": "1989-02-10",
+      "end": "1992-03-30",
+      "parties": [
+        "People's National Party"
+      ],
+      "term_number": 6,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q109130",
+      "name": "P. J. Patterson",
+      "start": "1992-03-30",
+      "end": "2006-03-30",
+      "parties": [
+        "People's National Party"
+      ],
+      "term_number": 7,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q57597",
+      "name": "Portia Simpson-Miller",
+      "start": "2006-03-30",
+      "end": "2007-09-11",
+      "parties": [
+        "People's National Party"
+      ],
+      "term_number": 8,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q315662",
+      "name": "Bruce Golding",
+      "start": "2007-09-11",
+      "end": "2011-10-23",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 9,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q505200",
+      "name": "Andrew Holness",
+      "start": "2011-10-23",
+      "end": "2012-01-05",
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 10,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q57597",
+      "name": "Portia Simpson-Miller",
+      "start": "2012-01-05",
+      "end": "2016-03-03",
+      "parties": [
+        "People's National Party"
+      ],
+      "term_number": 11,
+      "current": false
+    },
+    {
+      "wikidata_id": "Q505200",
+      "name": "Andrew Holness",
+      "start": "2016-03-03",
+      "end": null,
+      "parties": [
+        "Jamaica Labour Party"
+      ],
+      "term_number": 12,
+      "current": true
+    }
+  ]
+}

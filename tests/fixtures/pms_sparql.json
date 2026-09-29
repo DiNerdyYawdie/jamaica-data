@@ -1,0 +1,190 @@
+{
+ "results": {
+  "bindings": [
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q265034"
+    },
+    "personLabel": {
+     "value": "Alexander Bustamante"
+    },
+    "start": {
+     "value": "1962-04-29T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "1967-02-23T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q1240351"
+    },
+    "personLabel": {
+     "value": "Donald Sangster"
+    },
+    "start": {
+     "value": "1967-02-23T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "1967-04-11T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q982324"
+    },
+    "personLabel": {
+     "value": "Hugh Shearer"
+    },
+    "start": {
+     "value": "1967-04-11T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "1972-03-02T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q365395"
+    },
+    "personLabel": {
+     "value": "Michael Manley"
+    },
+    "start": {
+     "value": "1972-03-02T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "People's National Party"
+    },
+    "end": {
+     "value": "1980-11-01T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q470950"
+    },
+    "personLabel": {
+     "value": "Edward Seaga"
+    },
+    "start": {
+     "value": "1980-11-01T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "1989-02-10T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q109130"
+    },
+    "personLabel": {
+     "value": "P. J. Patterson"
+    },
+    "start": {
+     "value": "1992-03-30T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "People's National Party"
+    },
+    "end": {
+     "value": "2006-03-30T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q57597"
+    },
+    "personLabel": {
+     "value": "Portia Simpson-Miller"
+    },
+    "start": {
+     "value": "2006-03-30T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "People's National Party"
+    },
+    "end": {
+     "value": "2007-09-11T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q315662"
+    },
+    "personLabel": {
+     "value": "Bruce Golding"
+    },
+    "start": {
+     "value": "2007-09-11T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "2011-10-23T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q505200"
+    },
+    "personLabel": {
+     "value": "Andrew Holness"
+    },
+    "start": {
+     "value": "2011-10-23T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    },
+    "end": {
+     "value": "2012-01-05T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q57597"
+    },
+    "personLabel": {
+     "value": "Portia Simpson-Miller"
+    },
+    "start": {
+     "value": "2012-01-05T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "People's National Party"
+    },
+    "end": {
+     "value": "2016-03-03T00:00:00Z"
+    }
+   },
+   {
+    "person": {
+     "value": "http://www.wikidata.org/entity/Q505200"
+    },
+    "personLabel": {
+     "value": "Andrew Holness"
+    },
+    "start": {
+     "value": "2016-03-03T00:00:00Z"
+    },
+    "partyLabel": {
+     "value": "Jamaica Labour Party"
+    }
+   }
+  ]
+ }
+}

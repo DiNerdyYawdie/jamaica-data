@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "title": "Members of the House of Representatives of Jamaica",
+    "parliament": 15,
+    "seats": 63,
+    "source": "https://en.wikipedia.org/wiki/15th_Parliament_of_Jamaica",
+    "source_revision": 1369808055,
+    "license": "CC BY-SA 4.0 (Wikipedia)",
+    "updated_at": "2026-09-29T00:00:00Z"
+  },
+  "data": [
+    {
+      "constituency": "Clarendon Central",
+      "parish": "Clarendon",
+      "name": "Delroy Williams",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Delroy Williams",
+      "wikidata_id": "Q123644003"
+    },
+    {
+      "constituency": "Clarendon North Central",
+      "parish": "Clarendon",
+      "name": "Robert Nesta Morgan",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Robert Nesta Morgan",
+      "wikidata_id": "Q64009690"
+    },
+    {
+      "constituency": "Clarendon North Western",
+      "parish": "Clarendon",
+      "name": "Richard Azan",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Richard Azan",
+      "wikidata_id": "Q124099536"
+    },
+    {
+      "constituency": "Clarendon Northern",
+      "parish": "Clarendon",
+      "name": "Wavell Hinds",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Wavell Hinds",
+      "wikidata_id": "Q7975374"
+    },
+    {
+      "constituency": "Clarendon South Eastern",
+      "parish": "Clarendon",
+      "name": "Pearnel Charles",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Pearnel Patroe Charles Jr.",
+      "wikidata_id": "Q28837290"
+    },
+    {
+      "constituency": "Clarendon South Western",
+      "parish": "Clarendon",
+      "name": "Lothan Cousins",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Lothan Cousins",
+      "wikidata_id": "Q111170860"
+    },
+    {
+      "constituency": "Hanover Eastern",
+      "parish": "Hanover",
+      "name": "Andrea Purkiss",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Andrea Purkiss",
+      "wikidata_id": "Q136094205"
+    },
+    {
+      "constituency": "Hanover Western",
+      "parish": "Hanover",
+      "name": "Heatha Miller-Bennett",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Heatha Miller-Bennett",
+      "wikidata_id": "Q136094204"
+    },
+    {
+      "constituency": "Kingston Central",
+      "parish": "Kingston",
+      "name": "Donovan Williams",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Donovan Williams (politician)",
+      "wikidata_id": "Q111830660"
+    },
+    {
+      "constituency": "Kingston East & Port Royal",
+      "parish": "Kingston",
+      "name": "Phillip Paulwell",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Phillip Paulwell",
+      "wikidata_id": "Q17110975"
+    },
+    {
+      "constituency": "Kingston Western",
+      "parish": "Kingston",
+      "name": "Desmond McKenzie",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Desmond McKenzie",
+      "wikidata_id": "Q5264765"
+    },
+    {
+      "constituency": "Manchester Central",
+      "parish": "Manchester",
+      "name": "Rhoda Moy Crawford",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Rhoda Moy Crawford",
+      "wikidata_id": "Q102124700"
+    },
+    {
+      "constituency": "Manchester North Eastern",
+      "parish": "Manchester",
+      "name": "Audrey Marks",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Audrey Marks",
+      "wikidata_id": "Q759003"
+    },
+    {
+      "constituency": "Manchester North Western",
+      "parish": "Manchester",
+      "name": "Mikael Phillips",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Mikael Phillips",
+      "wikidata_id": "Q111292005"
+    },
+    {
+      "constituency": "Manchester Southern",
+      "parish": "Manchester",
+      "name": "Peter Bunting",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Peter Bunting",
+      "wikidata_id": "Q7175994"
+    },
+    {
+      "constituency": "Portland Eastern",
+      "parish": "Portland",
+      "name": "Isat Buchanan",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Isat Buchanan",
+      "wikidata_id": "Q136093968"
+    },
+    {
+      "constituency": "Portland Western",
+      "parish": "Portland",
+      "name": "Daryl Vaz",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Daryl Vaz",
+      "wikidata_id": "Q1167006"
+    },
+    {
+      "constituency": "Saint Andrew East Central",
+      "parish": "Saint Andrew",
+      "name": "Dennis Gordon",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Dennis Gordon (politician)",
+      "wikidata_id": "Q136327284"
+    },
+    {
+      "constituency": "Saint Andrew East Rural",
+      "parish": "Saint Andrew",
+      "name": "Juliet Holness",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Juliet Holness",
+      "wikidata_id": "Q47308275"
+    },
+    {
+      "constituency": "Saint Andrew Eastern",
+      "parish": "Saint Andrew",
+      "name": "Fayval Williams",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Fayval Williams",
+      "wikidata_id": "Q23304549"
+    },
+    {
+      "constituency": "Saint Andrew North Central",
+      "parish": "Saint Andrew",
+      "name": "Delano Seiveright",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Delano Seiveright",
+      "wikidata_id": "Q136094678"
+    },
+    {
+      "constituency": "Saint Andrew North Eastern",
+      "parish": "Saint Andrew",
+      "name": "Delroy Chuck",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Delroy Chuck",
+      "wikidata_id": "Q1184742"
+    },
+    {
+      "constituency": "Saint Andrew North Western",
+      "parish": "Saint Andrew",
+      "name": "Duane Smith",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Duane Smith",
+      "wikidata_id": "Q137784264"
+    },
+    {
+      "constituency": "Saint Andrew South Eastern",
+      "parish": "Saint Andrew",
+      "name": "Julian Robinson",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Julian Robinson (politician)",
+      "wikidata_id": "Q111291783"
+    },
+    {
+      "constituency": "Saint Andrew South Western",
+      "parish": "Saint Andrew",
+      "name": "Angela Brown-Burke",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Angela Brown-Burke",
+      "wikidata_id": "Q4762388"
+    },
+    {
+      "constituency": "Saint Andrew Southern",
+      "parish": "Saint Andrew",
+      "name": "Mark Golding",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Mark Golding",
+      "wikidata_id": "Q97657156"
+    },
+    {
+      "constituency": "Saint Andrew West Central",
+      "parish": "Saint Andrew",
+      "name": "Andrew Holness",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Andrew Holness",
+      "wikidata_id": "Q505200"
+    },
+    {
+      "constituency": "Saint Andrew West Rural",
+      "parish": "Saint Andrew",
+      "name": "Juliet Cuthbert-Flynn",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Juliet Cuthbert-Flynn",
+      "wikidata_id": "Q254503"
+    },
+    {
+      "constituency": "Saint Andrew Western",
+      "parish": "Saint Andrew",
+      "name": "Anthony Hylton",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Anthony Hylton",
+      "wikidata_id": "Q2852879"
+    },
+    {
+      "constituency": "Saint Ann North Eastern",
+      "parish": "Saint Ann",
+      "name": "Matthew Samuda",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Matthew Samuda",
+      "wikidata_id": "Q87713413"
+    },
+    {
+      "constituency": "Saint Ann North Western",
+      "parish": "Saint Ann",
+      "name": "Krystal Lee",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Krystal Lee",
+      "wikidata_id": "Q111536432"
+    },
+    {
+      "constituency": "Saint Ann South Eastern",
+      "parish": "Saint Ann",
+      "name": "Kenneth Russell",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Kenneth Russell (Jamaican politician)",
+      "wikidata_id": "Q136327321"
+    },
+    {
+      "constituency": "Saint Ann South Western",
+      "parish": "Saint Ann",
+      "name": "Zavia Mayne",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Zavia Mayne",
+      "wikidata_id": "Q110543640"
+    },
+    {
+      "constituency": "Saint Catherine Central",
+      "parish": "Saint Catherine",
+      "name": "Olivia Grange",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Olivia Grange",
+      "wikidata_id": "Q1247437"
+    },
+    {
+      "constituency": "Saint Catherine East Central",
+      "parish": "Saint Catherine",
+      "name": "Alando Terrelonge",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Alando Terrelonge",
+      "wikidata_id": "Q111226206"
+    },
+    {
+      "constituency": "Saint Catherine Eastern",
+      "parish": "Saint Catherine",
+      "name": "Denise Daley",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Denise Daley",
+      "wikidata_id": "Q111303817"
+    },
+    {
+      "constituency": "Saint Catherine North Central",
+      "parish": "Saint Catherine",
+      "name": "Natalie Neita",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Natalie Neita",
+      "wikidata_id": "Q111292239"
+    },
+    {
+      "constituency": "Saint Catherine North Eastern",
+      "parish": "Saint Catherine",
+      "name": "Kerensia Morrison",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Kerensia Morrison",
+      "wikidata_id": "Q111172856"
+    },
+    {
+      "constituency": "Saint Catherine North Western",
+      "parish": "Saint Catherine",
+      "name": "Damion Crawford",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Damion Crawford",
+      "wikidata_id": "Q74707089"
+    },
+    {
+      "constituency": "Saint Catherine South Central",
+      "parish": "Saint Catherine",
+      "name": "Andrew Wheatley",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Andrew Wheatley",
+      "wikidata_id": "Q111333698"
+    },
+    {
+      "constituency": "Saint Catherine South Eastern",
+      "parish": "Saint Catherine",
+      "name": "Alfred Dawes",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Alfred Dawes",
+      "wikidata_id": "Q137799040"
+    },
+    {
+      "constituency": "Saint Catherine South Western",
+      "parish": "Saint Catherine",
+      "name": "Everald Warmington",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Everald Warmington",
+      "wikidata_id": "Q5416886"
+    },
+    {
+      "constituency": "Saint Catherine Southern",
+      "parish": "Saint Catherine",
+      "name": "Fitz Jackson",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Fitz Jackson",
+      "wikidata_id": "Q111291801"
+    },
+    {
+      "constituency": "Saint Catherine West Central",
+      "parish": "Saint Catherine",
+      "name": "Christopher Tufton",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Christopher Tufton",
+      "wikidata_id": "Q1087022"
+    },
+    {
+      "constituency": "Saint Elizabeth North Eastern",
+      "parish": "Saint Elizabeth",
+      "name": "Zuleika Jess",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Zuleika Jess",
+      "wikidata_id": "Q136094206"
+    },
+    {
+      "constituency": "Saint Elizabeth North Western",
+      "parish": "Saint Elizabeth",
+      "name": "Andrew Morris",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Andrew Morris (Jamaican politician)",
+      "wikidata_id": "Q136327349"
+    },
+    {
+      "constituency": "Saint Elizabeth South Eastern",
+      "parish": "Saint Elizabeth",
+      "name": "Franklyn Witter",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Franklyn Witter",
+      "wikidata_id": "Q111285365"
+    },
+    {
+      "constituency": "Saint Elizabeth South Western",
+      "parish": "Saint Elizabeth",
+      "name": "Floyd Green",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Floyd Green (Jamaican politician)",
+      "wikidata_id": "Q109928795"
+    },
+    {
+      "constituency": "Saint James Central",
+      "parish": "Saint James",
+      "name": "Heroy Clarke",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Heroy Clarke",
+      "wikidata_id": "Q111285589"
+    },
+    {
+      "constituency": "Saint James East Central",
+      "parish": "Saint James",
+      "name": "Edmund Bartlett",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Edmund Bartlett",
+      "wikidata_id": "Q1285979"
+    },
+    {
+      "constituency": "Saint James North Western",
+      "parish": "Saint James",
+      "name": "Horace Chang",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Horace Chang",
+      "wikidata_id": "Q1627852"
+    },
+    {
+      "constituency": "Saint James Southern",
+      "parish": "Saint James",
+      "name": "Nekeisha Burchell",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Nekeisha Burchell",
+      "wikidata_id": "Q136093934"
+    },
+    {
+      "constituency": "Saint James West Central",
+      "parish": "Saint James",
+      "name": "Marlene Malahoo Forte",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Marlene Malahoo Forte",
+      "wikidata_id": "Q16499741"
+    },
+    {
+      "constituency": "Saint Mary Central",
+      "parish": "Saint Mary",
+      "name": "Omar Newell",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Omar Newell",
+      "wikidata_id": "Q24287370"
+    },
+    {
+      "constituency": "Saint Mary South Eastern",
+      "parish": "Saint Mary",
+      "name": "Christopher Brown",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Christopher Brown (Jamaican politician)",
+      "wikidata_id": "Q136327334"
+    },
+    {
+      "constituency": "Saint Mary Western",
+      "parish": "Saint Mary",
+      "name": "Robert Montague",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Robert Montague (Jamaican politician)",
+      "wikidata_id": "Q1640128"
+    },
+    {
+      "constituency": "Saint Thomas Eastern",
+      "parish": "Saint Thomas",
+      "name": "Yvonne Shaw",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Yvonne Shaw",
+      "wikidata_id": "Q136147279"
+    },
+    {
+      "constituency": "Saint Thomas Western",
+      "parish": "Saint Thomas",
+      "name": "James Robertson",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "James Robertson (Jamaican politician)",
+      "wikidata_id": "Q1681050"
+    },
+    {
+      "constituency": "Trelawny Northern",
+      "parish": "Trelawny",
+      "name": "Tova Hamilton",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Tova Hamilton",
+      "wikidata_id": "Q111285832"
+    },
+    {
+      "constituency": "Trelawny Southern",
+      "parish": "Trelawny",
+      "name": "Marisa Dalrymple-Philibert",
+      "party": "Jamaica Labour Party",
+      "party_abbr": "JLP",
+      "wikipedia_title": "Marisa Dalrymple-Philibert",
+      "wikidata_id": "Q99478706"
+    },
+    {
+      "constituency": "Westmoreland Central",
+      "parish": "Westmoreland",
+      "name": "Dwayne Vaz",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Dwayne Vaz",
+      "wikidata_id": "Q134783441"
+    },
+    {
+      "constituency": "Westmoreland Eastern",
+      "parish": "Westmoreland",
+      "name": "Dayton Campbell",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Dayton Campbell",
+      "wikidata_id": "Q134700321"
+    },
+    {
+      "constituency": "Westmoreland Western",
+      "parish": "Westmoreland",
+      "name": "Ian Hayles",
+      "party": "People's National Party",
+      "party_abbr": "PNP",
+      "wikipedia_title": "Ian Hayles",
+      "wikidata_id": "Q5981773"
+    }
+  ]
+}

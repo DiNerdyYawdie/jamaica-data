@@ -1,0 +1,39 @@
+# Electoral Commission of Jamaica: parliamentary election result PDFs.
+# Collected from https://www.ecj.com.jm/elections/election-results/parliamentary-elections/ on 2026-09-29.
+# year|date|type|results page (under /election-results/)|PDFs (under /wp-content/uploads/)...
+2025|September 3|General Election|general-election-2025/|2025/09/2025-General-Election-Box-By-Box-Results-Electoral-Dvns-1.pdf|2025/09/2025-General-Election-Summary-Results-1.pdf
+2024|November 22|By-Election|by-election-2024/|2024/11/November2024ByElectionBoxByBoxResultParliamentary.pdf
+2024|September 30|By-Election|st-ann-north-eastern-by-election-2024/|2024/10/2024ByElectionStAnnNorthEasternFinalResults.pdf
+2020|September 3|General Election|general-election/|2020/10/2020GeneralElectionDetailedFinalResult.pdf|2020/10/2020GeneralElectionSummaryFinalResult.pdf
+2020|March 2|By-Election|clarendon-south-eastern-by-election/|2020/03/Clarendon-South-Eastern-By-Election-Results-Detail.pdf|2020/03/Clarendon-South-Eastern-By-Election-Results-Summary.pdf
+2019|April 4|By-Election|portland-eastern-election-2019/|2019/04/PortlandEasternByElection2019ResultsDetail.pdf|2019/04/PortlandEasternByElection2019ResultsSummary.pdf
+2018|March 5|By-Election|st-andrew-north-western-election-2018/|2018/04/St.-Andrew-North-Western-By-Election-2018-Box-By-Box-Results.pdf|2018/04/St.-Andrew-North-Western-By-Election-2018-Box-By-Box-Results-Summary.pdf
+2017|October 30|By-Election|by-election-2017/|2017/12/2017By-ElectionsBoxbyBox.pdf|2017/12/2017By-ElectionSummary.pdf
+2016|February 25|General Election|general-election-2016/|2017/12/2016GeneralElectionBoxbyBox.pdf|2017/12/2016GeneralElectionSummary.pdf
+2014|December 1|By-Election|westmoreland-central-election-2014/|2017/12/2014WestmorelandCentralBy-ElectionDetailed.pdf|2017/12/2014WestmorelandCentralBy-ElectionSummary.pdf
+2011|December 29|General Election|general-election-2011/|2017/12/2011GeneralElectionBoxByBox.pdf|2017/12/2011GeneralElectionSummary.pdf
+2011|April 4|By-Election|st-catherine-south-western-election-2011/|2017/12/2011By-ElectionStCatherineSouthWesternBoxbyBox.pdf|2017/12/2011StCatherineSouthWesternBy-ElectionSummary.pdf
+2010|December 20|By-Election|st-ann-north-eastern-election-2010/|2017/12/2010By-ElectionStAnnNorthEasternBoxbyBox.pdf|2017/12/2010By-ElectionStAnnNorthEasternSummary.pdf
+2009|September 4|By-Election|clarendon-north-western-election-2009/|2017/12/2009By-ElectionClarendonNorthWesternBoxbyBox.pdf|2017/12/2009By-ElectionClarendonNorthWesternSummary.pdf
+2009|June 16|By-Election|st-catherine-north-eastern-election-2009/|2017/12/2009By-ElectionStCatherineNorthEasternBoxbyBox.pdf|2017/12/2009By-ElectionStCatherineNorthEasternSummary.pdf
+2009|March 23|By-Election|portland-western-election-2009/|2017/12/2009By-ElectionPortlandWesternBoxbyBox.pdf|2017/12/2009By-ElectionPortlandWesternSummary.pdf
+2007|September 3|General Election|general-election-2007/|2017/12/2007GeneralElectionBoxbyBox.pdf|2017/12/2007GeneralElectionSummary.pdf
+2006|June 7|By-Election|westmoreland-eastern-election-2006/|2017/12/2006By-ElectionWestmorelandEasternBoxbyBox.pdf|2017/12/2006By-ElectionWestmorelandEasternSummary.pdf
+2005|April 13|By-Election|kingston-western-election-2005/|2017/12/2005By-ElectionKingstonWesternBoxbyBox.pdf|2017/12/2005By-ElectionKingstonWesternSummary.pdf
+2002|October 16|General Election|general-election-2002/|2017/12/2002GeneralElectionBoxByBox.pdf|2017/12/2002GeneralElectionSummary.pdf
+2001|March 8|By-Election|st-ann-north-eastern-election-2001/|2017/12/2001By-ElectionStAnnNorthEasternBoxbyBox.pdf|2017/12/2001By-ElectionStAnnNorthEasternSummary.pdf
+1997|December 18|General Election|general-election-1997/|2017/12/1997GeneralElectionBoxbyBox.pdf
+1994|August 25|By-Election|st-catherine-southern-by-election-1994/|2024/02/1994StCatherineSouthernBy-Election.pdf
+1994|April 26|By-Election|st-andrew-east-central-by-election-1994/|2024/02/1994StAndrewEastCentralBy-ElectionResults.pdf
+1993|March 30|General Election|general-election-1993/|2017/12/1993GeneralElectionBoxbyBox.pdf|2017/12/1993GeneralElectionSummary.pdf
+1989|February 9|General Election|general-election-1989/|2017/12/1989GeneralElectionBoxbyBox.pdf|2017/12/1989GeneralElectionSummary.pdf
+1983|December 15|General Election|general-election-1983/|2017/12/1983GeneralElectionBoxbyBox.pdf|2017/12/1983GeneralElectionSummary.pdf
+1980|October 30|General Election|general-election-1980/|2017/12/1980GeneralElectionBoxbyBox.pdf|2017/12/1980GeneralElectionSummary.pdf
+1976|December 15|General Election|general-election-1976/|2017/12/1976GeneralElectionBoxbyBox.pdf|2017/12/1976GeneralElectionSummary.pdf
+1972|February 29|General Election|general-election-1972/|2017/07/19720229generaldetailed.pdf|2017/07/19720229generalsummary.pdf
+1967|February 21|General Election|general-election-1967/|2017/07/19670221generaldetailed.pdf|2017/07/19670221generalsummary.pdf
+1962|April 10|General Election|general-election-1962/|2017/07/19620410generaldetailed.pdf|2017/07/19620410generalsummary.pdf
+1959|July 28|General Election|general-election-1959/|2017/07/19590728generaldetailed.pdf|2017/07/19590728generalsummary.pdf
+1955|January 12|General Election|general-election-1955/|2017/07/19550112generaldetailed.pdf|2017/07/19550112generalsummary.pdf
+1949|December 20|General Election|general-election-1949/|2017/07/19491220generaldetailed.pdf|2017/07/19491220generalsummary.pdf
+1944|December 14|General Election|general-elections-1944/|1944/12/19441214generaldetailed.pdf|1944/12/19441214generalsummary.pdf

@@ -4,7 +4,7 @@ Source: official Electoral Commission of Jamaica (ECJ) result PDFs.
 Runs in GitHub Actions (see .github/workflows/backfill-elections.yml).
 
 How it works
-  1. Read the ECJ list of parliamentary elections and each event's PDF links.
+  1. Take the list of elections and their PDF links from data/sources/ecj_elections.txt.
   2. Render every page of the *summary* PDF to an image and have Gemini read
      it into JSON (constituency, electors, candidates, votes, rejected, total).
      This works for both the typed 2002+ PDFs and the scanned 1944–1997 ones.
@@ -33,16 +33,13 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "history" / "elections"
 CACHE = ROOT / ".cache" / "ecj"
 
-ECJ_LIST = "https://www.ecj.com.jm/elections/election-results/parliamentary-elections/"
 GEMINI = "https://generativelanguage.googleapis.com/v1beta"
 UA = "JamaicaDataAPI/0.1 (https://dinerdapps.com; Di Nerd Apps) python-requests"
 GEMINI_MIN_GAP = float(os.environ.get("GEMINI_MIN_GAP", "7"))  # free tier ≈ 10 req/min
@@ -62,34 +59,39 @@ def slug_for(year: str, date: str, kind: str, url: str) -> str:
     return f"{year}-{month}-by-election" + (f"-{tail}" if tail else "")
 
 
+SOURCES = ROOT / "data" / "sources" / "ecj_elections.txt"
+ECJ = "https://www.ecj.com.jm"
+
+
 def list_events() -> list[dict]:
-    soup = BeautifulSoup(http.get(ECJ_LIST, timeout=60).text, "html.parser")
+    """Elections and their PDFs, from data/sources/ecj_elections.txt (collected from the ECJ site)."""
     events = []
-    for tr in soup.select("table tr"):
-        cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
-        link = tr.find("a", href=True)
-        if len(cells) < 3 or not link or not re.fullmatch(r"\d{4}", cells[0]):
+    for line in SOURCES.read_text().splitlines():
+        if not line.strip() or line.startswith("#"):
             continue
-        year, date, kind = cells[0], cells[1], cells[2]
-        url = urljoin(ECJ_LIST, link["href"])
+        year, date, kind, page, *pdfs = line.split("|")
+        url = f"{ECJ}/election-results/{page}"
+        pdfs = [f"{ECJ}/wp-content/uploads/{p}" for p in pdfs]
+        summary = next((p for p in pdfs if "summary" in p.lower()), None)
+        detailed = next((p for p in pdfs if p != summary), None)
         events.append({"id": slug_for(year, date, kind, url), "year": int(year),
-                       "date": f"{date}, {year}", "type": kind, "results_page": url})
-    if len(events) < 30:
-        sys.exit(f"::error::Only found {len(events)} ECJ events; the page layout may have changed")
+                       "date": f"{date}, {year}", "type": kind, "results_page": url,
+                       "pdfs": {"summary": summary, "detailed": detailed}})
     return events
 
 
-def pdf_links(page_url: str) -> dict:
-    soup = BeautifulSoup(http.get(page_url, timeout=60).text, "html.parser")
-    pdfs = []
-    for a in soup.find_all("a", href=True):
-        href = urljoin(page_url, a["href"])
-        if href.lower().endswith(".pdf") and "/uploads/" in href and not re.search(
-                r"Passport|Security", href) and href not in pdfs:
-            pdfs.append(href)
-    summary = next((p for p in pdfs if "summary" in p.lower()), None)
-    detailed = next((p for p in pdfs if p != summary), None)
-    return {"summary": summary, "detailed": detailed}
+def check_access() -> None:
+    """Fail fast, with details, if the ECJ site won't serve files to this machine."""
+    test = f"{ECJ}/wp-content/uploads/2017/12/2016GeneralElectionSummary.pdf"
+    try:
+        r = http.get(test, timeout=60)
+    except requests.RequestException as e:
+        sys.exit(f"::error::Can't reach ecj.com.jm from this machine: {e}")
+    print(f"ECJ access check: HTTP {r.status_code}, {r.headers.get('content-type')}, "
+          f"{len(r.content)} bytes, server={r.headers.get('server')}")
+    if r.status_code != 200 or not r.content.startswith(b"%PDF"):
+        print("Response starts with:\n" + r.text[:600])
+        sys.exit("::error::ecj.com.jm did not return the PDF to this machine (see log above)")
 
 
 def download(url: str) -> bytes:
@@ -98,6 +100,8 @@ def download(url: str) -> bytes:
     if not path.exists():
         r = http.get(url, timeout=300)
         r.raise_for_status()
+        if not r.content.startswith(b"%PDF"):
+            sys.exit(f"::error::{url} did not return a PDF (HTTP {r.status_code})")
         path.write_bytes(r.content)
     return path.read_bytes()
 
@@ -407,10 +411,10 @@ def main() -> None:
     wanted = {x.strip() for x in args.only.split(",") if x.strip()}
 
     OUT.mkdir(parents=True, exist_ok=True)
-    events = list_events()
     report = []
     try:
-        run_events(events, wanted, args.force, key, report)
+        check_access()
+        run_events(list_events(), wanted, args.force, key, report)
     finally:
         write_report(report)
 
@@ -424,7 +428,7 @@ def run_events(events, wanted, force, key, report) -> None:
             print(f"{ev['id']}: already done, skipping")
             continue
         print(f"{ev['id']}: {ev['results_page']}")
-        links = pdf_links(ev["results_page"])
+        links = ev["pdfs"]
         if links["summary"]:
             rows = read_summary(download(links["summary"]), key)
         elif links["detailed"]:

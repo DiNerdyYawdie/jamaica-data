@@ -109,49 +109,73 @@ def download(url: str) -> bytes:
 # ---------------------------------------------------------------- Gemini
 
 _last_call = 0.0
-_model: str | None = None
+_models: list[str] = []
 
 
-def pick_model(key: str) -> str:
-    global _model
-    if _model:
-        return _model
+def model_candidates(key: str) -> list[str]:
+    """Flash models this key can use, best first. GEMINI_MODEL pins one."""
+    global _models
+    if _models:
+        return _models
     if os.environ.get("GEMINI_MODEL"):
-        _model = os.environ["GEMINI_MODEL"]
-        return _model
+        _models = [os.environ["GEMINI_MODEL"]]
+        return _models
     models = http.get(f"{GEMINI}/models", params={"key": key, "pageSize": 200}, timeout=60).json()
     names = [m["name"].split("/", 1)[1] for m in models.get("models", [])
              if "generateContent" in m.get("supportedGenerationMethods", [])]
     flash = [n for n in names if "flash" in n and not re.search(
-        r"lite|image|tts|live|audio|thinking|exp|preview|8b", n)]
+        r"image|tts|live|audio|thinking|exp|8b", n)]
 
-    def version(n: str) -> tuple:
-        return tuple(int(x) for x in re.findall(r"\d+", n)[:2]) or (0,)
+    def rank(n: str) -> tuple:
+        v = tuple(int(x) for x in re.findall(r"\d+", n)[:2]) or (0,)
+        # stable, full-size models first; previews and lite as fallbacks
+        return ("preview" not in n, "lite" not in n, "latest" in n, v)
 
-    if not flash:
+    _models = sorted(flash, key=rank, reverse=True)
+    if not _models:
         sys.exit(f"::error::No Gemini flash model available. Models: {names[:20]}")
-    _model = sorted(flash, key=version, reverse=True)[0]
-    print(f"Using Gemini model: {_model}")
-    return _model
+    print(f"Gemini models to try, in order: {_models[:6]}")
+    return _models
+
+
+def pick_model(key: str) -> str:
+    return model_candidates(key)[0]
 
 
 def gemini(parts: list[dict], schema: dict, key: str) -> dict:
+    """Call Gemini. Busy/unavailable models (503/404) are dropped for the next one;
+    rate limits (429) are waited out."""
     global _last_call
     body = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {"temperature": 0, "responseMimeType": "application/json",
                              "responseSchema": schema},
     }
-    url = f"{GEMINI}/models/{pick_model(key)}:generateContent"
-    for attempt in range(8):
+    busy = 0
+    for attempt in range(12):
+        models = model_candidates(key)
+        if not models:
+            sys.exit("::error::Every Gemini model was unavailable; re-run later (finished elections are kept)")
+        model = models[0]
         wait = GEMINI_MIN_GAP - (time.time() - _last_call)
         if wait > 0:
             time.sleep(wait)
         _last_call = time.time()
-        r = http.post(url, params={"key": key}, json=body, timeout=300)
-        if r.status_code in (429, 500, 502, 503, 504):
-            delay = min(300, 15 * 2 ** attempt)
-            print(f"  Gemini {r.status_code}, retrying in {delay}s")
+        r = http.post(f"{GEMINI}/models/{model}:generateContent", params={"key": key},
+                      json=body, timeout=300)
+        if r.status_code in (503, 500, 502, 504, 404):
+            busy += 1
+            print(f"  {model}: HTTP {r.status_code} {r.text[:200]!r}")
+            if busy >= 2 or r.status_code == 404:
+                print(f"  switching away from {model}")
+                models.pop(0)
+                busy = 0
+            else:
+                time.sleep(20)
+            continue
+        if r.status_code == 429:
+            delay = min(120, 20 * (attempt + 1))
+            print(f"  {model}: rate limited, waiting {delay}s")
             time.sleep(delay)
             continue
         if r.status_code != 200:
@@ -161,7 +185,7 @@ def gemini(parts: list[dict], schema: dict, key: str) -> dict:
         try:
             return json.loads(text)
         except json.JSONDecodeError:
-            print(f"  Gemini returned invalid JSON (finish={cand.get('finishReason')}), retrying")
+            print(f"  {model}: invalid JSON (finish={cand.get('finishReason')}), retrying")
     sys.exit("::error::Gemini kept failing; re-run later (finished elections are kept)")
 
 

@@ -142,41 +142,55 @@ def pick_model(key: str) -> str:
     return model_candidates(key)[0]
 
 
+START = time.time()
+DEADLINE = START + 60 * float(os.environ.get("BACKFILL_MINUTES", "270"))  # stop before the 300-min job limit
+_busy_until: dict[str, float] = {}
+
+
 def gemini(parts: list[dict], schema: dict, key: str) -> dict:
-    """Call Gemini. Busy/unavailable models (503/404) are dropped for the next one;
-    rate limits (429) are waited out."""
+    """Call Gemini patiently. The free tier often answers 503 "high demand", so busy
+    models are rested for a few minutes and retried in rotation until the deadline.
+    Models that don't exist for this key (404) are dropped for good."""
     global _last_call
     body = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {"temperature": 0, "responseMimeType": "application/json",
                              "responseSchema": schema},
     }
-    busy = 0
-    for attempt in range(12):
+    bad_json = 0
+    while time.time() < DEADLINE:
         models = model_candidates(key)
         if not models:
-            sys.exit("::error::Every Gemini model was unavailable; re-run later (finished elections are kept)")
-        model = models[0]
+            sys.exit("::error::No usable Gemini model for this key")
+        ready = [m for m in models if _busy_until.get(m, 0) <= time.time()]
+        if not ready:
+            nap = max(30, min(_busy_until.values()) - time.time())
+            print(f"  all Gemini models busy; waiting {int(nap)}s")
+            time.sleep(nap)
+            continue
+        model = ready[0]
         wait = GEMINI_MIN_GAP - (time.time() - _last_call)
         if wait > 0:
             time.sleep(wait)
         _last_call = time.time()
-        r = http.post(f"{GEMINI}/models/{model}:generateContent", params={"key": key},
-                      json=body, timeout=300)
-        if r.status_code in (503, 500, 502, 504, 404):
-            busy += 1
-            print(f"  {model}: HTTP {r.status_code} {r.text[:200]!r}")
-            if busy >= 2 or r.status_code == 404:
-                print(f"  switching away from {model}")
-                models.pop(0)
-                busy = 0
-            else:
-                time.sleep(20)
+        try:
+            r = http.post(f"{GEMINI}/models/{model}:generateContent", params={"key": key},
+                          json=body, timeout=300)
+        except requests.RequestException as e:
+            print(f"  {model}: network error {e}; resting it")
+            _busy_until[model] = time.time() + 120
+            continue
+        if r.status_code == 404:
+            print(f"  {model}: not available for this key, dropping it")
+            models.remove(model)
+            continue
+        if r.status_code in (500, 502, 503, 504):
+            print(f"  {model}: busy (HTTP {r.status_code}), resting it 5 min")
+            _busy_until[model] = time.time() + 300
             continue
         if r.status_code == 429:
-            delay = min(120, 20 * (attempt + 1))
-            print(f"  {model}: rate limited, waiting {delay}s")
-            time.sleep(delay)
+            print(f"  {model}: rate limited, resting it 2 min ({r.text[:120]!r})")
+            _busy_until[model] = time.time() + 120
             continue
         if r.status_code != 200:
             sys.exit(f"::error::Gemini error {r.status_code}: {r.text[:500]}")
@@ -185,8 +199,12 @@ def gemini(parts: list[dict], schema: dict, key: str) -> dict:
         try:
             return json.loads(text)
         except json.JSONDecodeError:
-            print(f"  {model}: invalid JSON (finish={cand.get('finishReason')}), retrying")
-    sys.exit("::error::Gemini kept failing; re-run later (finished elections are kept)")
+            bad_json += 1
+            print(f"  {model}: invalid JSON (finish={cand.get('finishReason')})")
+            if bad_json >= 3:
+                _busy_until[model] = time.time() + 60
+    sys.exit("::error::Out of time for this run; finished elections are saved. "
+             "The next run continues from here.")
 
 
 PAGE_SCHEMA = {

@@ -1,6 +1,10 @@
 name: Backfill election history (one-time)
 
 on:
+  # Keeps going on its own every 3 hours until all 36 elections are saved
+  # (a finished backfill makes each run a ~1 minute no-op). Delete this once merged.
+  schedule:
+    - cron: "23 */3 * * *"
   workflow_dispatch:
     inputs:
       only:

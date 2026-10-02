@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — September 30, 2024",
+    "source": "https://www.ecj.com.jm/election-results/st-ann-north-eastern-by-election-2024/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2024/10/2024ByElectionStAnnNorthEasternFinalResults.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:05:47Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2024-sep-by-election-st-ann-north-eastern",
+    "year": 2024,
+    "date": "September 30, 2024",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 0,
+    "needs_check": 1,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 24,
+      "constituency": "Saint Ann North Eastern",
+      "electors": null,
+      "total_votes": 5129,
+      "rejected": null,
+      "turnout_pct": null,
+      "winner": {
+        "name": "SAMUDA MATTHEW PETER",
+        "party": "JLP",
+        "votes": 4820
+      },
+      "margin": 4603,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 4820,
+          "name": "SAMUDA MATTHEW PETER"
+        },
+        {
+          "party": "IND",
+          "votes": 217,
+          "name": "ANDERSON DAVID FRITZ"
+        },
+        {
+          "party": "UIC",
+          "votes": 31,
+          "name": "NEIL CHASE ALBERT"
+        }
+      ],
+      "status": "check",
+      "notes": [
+        "candidate votes 5068 + rejected None != total 5129"
+      ],
+      "source_page": null
+    }
+  ]
+}

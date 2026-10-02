@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — September 4, 2009",
+    "source": "https://www.ecj.com.jm/election-results/clarendon-north-western-election-2009/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionClarendonNorthWesternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionClarendonNorthWesternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:15:49Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2009-sep-by-election-clarendon-north-western",
+    "year": 2009,
+    "date": "September 4, 2009",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 46,
+      "constituency": "Clarendon North Western",
+      "electors": 22640,
+      "total_votes": 6005,
+      "rejected": 30,
+      "turnout_pct": 26.52,
+      "winner": {
+        "name": "Michael A. Stern",
+        "party": "JLP",
+        "votes": 5574
+      },
+      "margin": 5173,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5574,
+          "name": "Michael A. Stern"
+        },
+        {
+          "party": "NDM",
+          "votes": 401,
+          "name": "Eton C. Williams"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — December 1, 2014",
+    "source": "https://www.ecj.com.jm/election-results/westmoreland-central-election-2014/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2014WestmorelandCentralBy-ElectionSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2014WestmorelandCentralBy-ElectionDetailed.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:11:03Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2014-dec-by-election-westmoreland-central",
+    "year": 2014,
+    "date": "December 1, 2014",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "PNP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 37,
+      "constituency": "Westmoreland Central",
+      "electors": 39367,
+      "total_votes": 15214,
+      "rejected": 125,
+      "turnout_pct": 38.65,
+      "winner": {
+        "name": "Dier Eyaf",
+        "party": "PNP",
+        "votes": 8738
+      },
+      "margin": 2446,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8738,
+          "name": "Dier Eyaf"
+        },
+        {
+          "party": "JLP",
+          "votes": 6292,
+          "name": "G. Rotsa"
+        },
+        {
+          "party": "IND",
+          "votes": 59,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

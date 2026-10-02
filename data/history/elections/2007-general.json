@@ -1,0 +1,2913 @@
+{
+  "meta": {
+    "title": "Jamaica general election — September 3, 2007",
+    "source": "https://www.ecj.com.jm/election-results/general-election-2007/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2007GeneralElectionSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2007GeneralElectionBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:18:13Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2007-general",
+    "year": 2007,
+    "date": "September 3, 2007",
+    "type": "General Election"
+  },
+  "summary": {
+    "seats": 60,
+    "verified": 60,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 32,
+      "PNP": 28
+    },
+    "expected_seats": 60,
+    "complete": true,
+    "matches_published_result": true
+  },
+  "results": [
+    {
+      "number": 1,
+      "constituency": "Kingston Western",
+      "electors": 16710,
+      "total_votes": 11949,
+      "rejected": 77,
+      "turnout_pct": 71.51,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 10295
+      },
+      "margin": 8718,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 10295,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 1577,
+          "name": "Joseph Witter"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 2,
+      "constituency": "Kingston Central",
+      "electors": 15172,
+      "total_votes": 9206,
+      "rejected": 229,
+      "turnout_pct": 60.68,
+      "winner": {
+        "name": "Donald Watis",
+        "party": "PNP",
+        "votes": 5210
+      },
+      "margin": 1465,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 5210,
+          "name": "Donald Watis"
+        },
+        {
+          "party": "JLP",
+          "votes": 3745,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 22,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 3,
+      "constituency": "Kingston East & Port Royal",
+      "electors": 16269,
+      "total_votes": 8795,
+      "rejected": 136,
+      "turnout_pct": 54.06,
+      "winner": {
+        "name": "Philip Paulwell",
+        "party": "PNP",
+        "votes": 7183
+      },
+      "margin": 5728,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7183,
+          "name": "Philip Paulwell"
+        },
+        {
+          "party": "JLP",
+          "votes": 1455,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 21,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 4,
+      "constituency": "Saint Andrew West Rural",
+      "electors": 30133,
+      "total_votes": 17065,
+      "rejected": 186,
+      "turnout_pct": 56.63,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9578
+      },
+      "margin": 2321,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9578,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7257,
+          "name": "N. R. Moore"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 26,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 18,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 5,
+      "constituency": "Saint Andrew Western",
+      "electors": 24469,
+      "total_votes": 13383,
+      "rejected": 90,
+      "turnout_pct": 54.69,
+      "winner": {
+        "name": "George Hylton",
+        "party": "PNP",
+        "votes": 8155
+      },
+      "margin": 3039,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8155,
+          "name": "George Hylton"
+        },
+        {
+          "party": "JLP",
+          "votes": 5116,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 22,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 6,
+      "constituency": "Saint Andrew West Central",
+      "electors": 20921,
+      "total_votes": 12922,
+      "rejected": 114,
+      "turnout_pct": 61.77,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6933
+      },
+      "margin": 1058,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6933,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5875,
+          "name": "Patrick Roberts"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 7,
+      "constituency": "Saint Andrew East Central",
+      "electors": 19973,
+      "total_votes": 10381,
+      "rejected": 73,
+      "turnout_pct": 51.98,
+      "winner": {
+        "name": "D. Phillips",
+        "party": "PNP",
+        "votes": 6382
+      },
+      "margin": 2456,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6382,
+          "name": "D. Phillips"
+        },
+        {
+          "party": "JLP",
+          "votes": 3926,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 8,
+      "constituency": "Saint Andrew South Western",
+      "electors": 17447,
+      "total_votes": 10231,
+      "rejected": 270,
+      "turnout_pct": 58.64,
+      "winner": {
+        "name": "Portia Simpson",
+        "party": "PNP",
+        "votes": 9360
+      },
+      "margin": 8759,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9360,
+          "name": "Portia Simpson"
+        },
+        {
+          "party": "JLP",
+          "votes": 601,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 9,
+      "constituency": "Saint Andrew Southern",
+      "electors": 16369,
+      "total_votes": 9432,
+      "rejected": 91,
+      "turnout_pct": 57.62,
+      "winner": {
+        "name": "L. Omar Davis",
+        "party": "PNP",
+        "votes": 8314
+      },
+      "margin": 7287,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8314,
+          "name": "L. Omar Davis"
+        },
+        {
+          "party": "JLP",
+          "votes": 1027,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 10,
+      "constituency": "Saint Andrew South Eastern",
+      "electors": 16361,
+      "total_votes": 9860,
+      "rejected": 55,
+      "turnout_pct": 60.27,
+      "winner": {
+        "name": "A. Maxine Henry-Wilson",
+        "party": "PNP",
+        "votes": 5187
+      },
+      "margin": 569,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 5187,
+          "name": "A. Maxine Henry-Wilson"
+        },
+        {
+          "party": "JLP",
+          "votes": 4618,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 11,
+      "constituency": "Saint Andrew Eastern",
+      "electors": 18045,
+      "total_votes": 11300,
+      "rejected": 85,
+      "turnout_pct": 62.62,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5907
+      },
+      "margin": 599,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5907,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5308,
+          "name": "Trevor Munroe"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 12,
+      "constituency": "Saint Andrew North Eastern",
+      "electors": 14487,
+      "total_votes": 8623,
+      "rejected": 5,
+      "turnout_pct": 59.52,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5764
+      },
+      "margin": 2950,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5764,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 2814,
+          "name": "Hugh M. Thompson"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 40,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 13,
+      "constituency": "Saint Andrew North Central",
+      "electors": 16283,
+      "total_votes": 9822,
+      "rejected": 54,
+      "turnout_pct": 60.32,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6254
+      },
+      "margin": 2766,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6254,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 3488,
+          "name": "Christopher Munroe"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 26,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 14,
+      "constituency": "Saint Andrew North Western",
+      "electors": 16802,
+      "total_votes": 9792,
+      "rejected": 60,
+      "turnout_pct": 58.28,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5794
+      },
+      "margin": 1885,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5794,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 3909,
+          "name": "S. Marjorie Martin"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 29,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 15,
+      "constituency": "Saint Andrew East Rural",
+      "electors": 27142,
+      "total_votes": 16519,
+      "rejected": 93,
+      "turnout_pct": 60.86,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8315
+      },
+      "margin": 270,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8315,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 8045,
+          "name": "A. Michael Phillips"
+        },
+        {
+          "party": "NDM",
+          "votes": 66,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 16,
+      "constituency": "Saint Thomas Western",
+      "electors": 28781,
+      "total_votes": 17155,
+      "rejected": 83,
+      "turnout_pct": 59.61,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9581
+      },
+      "margin": 2139,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9581,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7442,
+          "name": "Y. Rosemary Wah"
+        },
+        {
+          "party": "NDM",
+          "votes": 49,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 17,
+      "constituency": "Saint Thomas Eastern",
+      "electors": 23661,
+      "total_votes": 14298,
+      "rejected": 58,
+      "turnout_pct": 60.43,
+      "winner": {
+        "name": "R. I. Ferguson",
+        "party": "PNP",
+        "votes": 7589
+      },
+      "margin": 938,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7589,
+          "name": "R. I. Ferguson"
+        },
+        {
+          "party": "JLP",
+          "votes": 6651,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 18,
+      "constituency": "Portland Eastern",
+      "electors": 25910,
+      "total_votes": 15757,
+      "rejected": 80,
+      "turnout_pct": 60.81,
+      "winner": {
+        "name": "G. Donald Dodhr",
+        "party": "PNP",
+        "votes": 8236
+      },
+      "margin": 795,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8236,
+          "name": "G. Donald Dodhr"
+        },
+        {
+          "party": "JLP",
+          "votes": 7441,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 19,
+      "constituency": "Portland Western",
+      "electors": 17963,
+      "total_votes": 13077,
+      "rejected": 67,
+      "turnout_pct": 72.8,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6977
+      },
+      "margin": 944,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6977,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 6033,
+          "name": "Abrahba Duodbad"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 20,
+      "constituency": "Saint Mary South Eastern",
+      "electors": 19901,
+      "total_votes": 13891,
+      "rejected": 7,
+      "turnout_pct": 69.8,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6959
+      },
+      "margin": 34,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6959,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 6925,
+          "name": "G. Harry Salguod"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 21,
+      "constituency": "Saint Mary Central",
+      "electors": 19658,
+      "total_votes": 13485,
+      "rejected": 43,
+      "turnout_pct": 68.6,
+      "winner": {
+        "name": "Dr. V. Morris Yug",
+        "party": "PNP",
+        "votes": 7687
+      },
+      "margin": 1932,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7687,
+          "name": "Dr. V. Morris Yug"
+        },
+        {
+          "party": "JLP",
+          "votes": 5755,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 22,
+      "constituency": "Saint Mary Western",
+      "electors": 25879,
+      "total_votes": 17348,
+      "rejected": 71,
+      "turnout_pct": 67.04,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9022
+      },
+      "margin": 767,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9022,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 8255,
+          "name": "R. Danal Franklin"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 23,
+      "constituency": "Saint Ann South Eastern",
+      "electors": 17651,
+      "total_votes": 11705,
+      "rejected": 86,
+      "turnout_pct": 66.31,
+      "winner": {
+        "name": "S. R. Anna Lisa",
+        "party": "PNP",
+        "votes": 7158
+      },
+      "margin": 2697,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7158,
+          "name": "S. R. Anna Lisa"
+        },
+        {
+          "party": "JLP",
+          "votes": 4461,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 24,
+      "constituency": "Saint Ann North Eastern",
+      "electors": 34309,
+      "total_votes": 21348,
+      "rejected": 106,
+      "turnout_pct": 62.22,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 11632
+      },
+      "margin": 2022,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 11632,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 9610,
+          "name": "Westside Smith-Senior"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 25,
+      "constituency": "Saint Ann North Western",
+      "electors": 25167,
+      "total_votes": 15599,
+      "rejected": 43,
+      "turnout_pct": 61.98,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8210
+      },
+      "margin": 864,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8210,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7346,
+          "name": "Michael Nottingham"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 26,
+      "constituency": "Saint Ann South Western",
+      "electors": 17236,
+      "total_votes": 11104,
+      "rejected": 28,
+      "turnout_pct": 64.42,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6112
+      },
+      "margin": 1148,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6112,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4964,
+          "name": "Glenville Wah"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 27,
+      "constituency": "Trelawny Northern",
+      "electors": 27455,
+      "total_votes": 18940,
+      "rejected": 69,
+      "turnout_pct": 68.99,
+      "winner": {
+        "name": "V. E. Patrick Harris",
+        "party": "PNP",
+        "votes": 10164
+      },
+      "margin": 1522,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 10164,
+          "name": "V. E. Patrick Harris"
+        },
+        {
+          "party": "JLP",
+          "votes": 8642,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 65,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 28,
+      "constituency": "Trelawny Southern",
+      "electors": 15634,
+      "total_votes": 10796,
+      "rejected": 43,
+      "turnout_pct": 69.05,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6167
+      },
+      "margin": 1597,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6167,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4570,
+          "name": "A. Donna Brown-Reid"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 16,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 29,
+      "constituency": "Saint James East Central",
+      "electors": 25130,
+      "total_votes": 15205,
+      "rejected": 128,
+      "turnout_pct": 60.51,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8398
+      },
+      "margin": 1761,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8398,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 6637,
+          "name": "E. Donald Aithamoloc"
+        },
+        {
+          "party": "INA",
+          "votes": 42,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 30,
+      "constituency": "Saint James North Western",
+      "electors": 25440,
+      "total_votes": 13139,
+      "rejected": 88,
+      "turnout_pct": 51.65,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7482
+      },
+      "margin": 1913,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7482,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5569,
+          "name": "G. Henry Drury"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 31,
+      "constituency": "Saint James West Central",
+      "electors": 26779,
+      "total_votes": 15106,
+      "rejected": 87,
+      "turnout_pct": 56.41,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7752
+      },
+      "margin": 536,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7752,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7216,
+          "name": "A. Francis Hollut"
+        },
+        {
+          "party": "NDM",
+          "votes": 51,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 32,
+      "constituency": "Saint James Southern",
+      "electors": 18320,
+      "total_votes": 11943,
+      "rejected": 90,
+      "turnout_pct": 65.19,
+      "winner": {
+        "name": "F. Redrick Keller",
+        "party": "PNP",
+        "votes": 6051
+      },
+      "margin": 249,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6051,
+          "name": "F. Redrick Keller"
+        },
+        {
+          "party": "JLP",
+          "votes": 5802,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 33,
+      "constituency": "Hanover Eastern",
+      "electors": 18338,
+      "total_votes": 12226,
+      "rejected": 100,
+      "turnout_pct": 66.67,
+      "winner": {
+        "name": "K. Donald Dancun",
+        "party": "PNP",
+        "votes": 6068
+      },
+      "margin": 10,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6068,
+          "name": "K. Donald Dancun"
+        },
+        {
+          "party": "JLP",
+          "votes": 6058,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 34,
+      "constituency": "Hanover Western",
+      "electors": 22717,
+      "total_votes": 14561,
+      "rejected": 93,
+      "turnout_pct": 64.1,
+      "winner": {
+        "name": "D. Nai Sayles",
+        "party": "PNP",
+        "votes": 7313
+      },
+      "margin": 173,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7313,
+          "name": "D. Nai Sayles"
+        },
+        {
+          "party": "JLP",
+          "votes": 7140,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 9,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 6,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 35,
+      "constituency": "Westmoreland Western",
+      "electors": 24328,
+      "total_votes": 14145,
+      "rejected": 72,
+      "turnout_pct": 58.14,
+      "winner": {
+        "name": "W. Kenneth Liencm",
+        "party": "PNP",
+        "votes": 8227
+      },
+      "margin": 2381,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8227,
+          "name": "W. Kenneth Liencm"
+        },
+        {
+          "party": "JLP",
+          "votes": 5846,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 36,
+      "constituency": "Westmoreland Central",
+      "electors": 30934,
+      "total_votes": 19124,
+      "rejected": 50,
+      "turnout_pct": 61.82,
+      "winner": {
+        "name": "C. H. Clarke",
+        "party": "PNP",
+        "votes": 10441
+      },
+      "margin": 1808,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 10441,
+          "name": "C. H. Clarke"
+        },
+        {
+          "party": "JLP",
+          "votes": 8633,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 37,
+      "constituency": "Westmoreland Eastern",
+      "electors": 20462,
+      "total_votes": 12213,
+      "rejected": 74,
+      "turnout_pct": 59.69,
+      "winner": {
+        "name": "B. Luther Nanahcub",
+        "party": "PNP",
+        "votes": 7751
+      },
+      "margin": 3363,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7751,
+          "name": "B. Luther Nanahcub"
+        },
+        {
+          "party": "JLP",
+          "votes": 4388,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 38,
+      "constituency": "Saint Elizabeth North Western",
+      "electors": 17155,
+      "total_votes": 11349,
+      "rejected": 98,
+      "turnout_pct": 66.16,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6438
+      },
+      "margin": 1625,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6438,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4813,
+          "name": "Anna Maria Bradbury"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 39,
+      "constituency": "Saint Elizabeth North Eastern",
+      "electors": 23874,
+      "total_votes": 16029,
+      "rejected": 73,
+      "turnout_pct": 67.14,
+      "winner": {
+        "name": "O. Kren Depneps",
+        "party": "PNP",
+        "votes": 9047
+      },
+      "margin": 2138,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9047,
+          "name": "O. Kren Depneps"
+        },
+        {
+          "party": "JLP",
+          "votes": 6909,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 40,
+      "constituency": "Saint Elizabeth South Western",
+      "electors": 24353,
+      "total_votes": 18023,
+      "rejected": 50,
+      "turnout_pct": 74.01,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9899
+      },
+      "margin": 1825,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9899,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 8074,
+          "name": "Yelnats Doowder"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 41,
+      "constituency": "Saint Elizabeth South Eastern",
+      "electors": 23653,
+      "total_votes": 17695,
+      "rejected": 52,
+      "turnout_pct": 74.81,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9064
+      },
+      "margin": 544,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9064,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 8520,
+          "name": "W. Norman Enroh"
+        },
+        {
+          "party": "NDM",
+          "votes": 31,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 28,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 42,
+      "constituency": "Manchester Southern",
+      "electors": 23740,
+      "total_votes": 15816,
+      "rejected": 71,
+      "turnout_pct": 66.62,
+      "winner": {
+        "name": "A. Michael Traep",
+        "party": "PNP",
+        "votes": 8290
+      },
+      "margin": 835,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8290,
+          "name": "A. Michael Traep"
+        },
+        {
+          "party": "JLP",
+          "votes": 7455,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 43,
+      "constituency": "Manchester Central",
+      "electors": 26573,
+      "total_votes": 16867,
+      "rejected": 76,
+      "turnout_pct": 63.47,
+      "winner": {
+        "name": "M. Peter Grintnub",
+        "party": "PNP",
+        "votes": 8453
+      },
+      "margin": 115,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8453,
+          "name": "M. Peter Grintnub"
+        },
+        {
+          "party": "JLP",
+          "votes": 8338,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 44,
+      "constituency": "Manchester North Western",
+      "electors": 19229,
+      "total_votes": 12083,
+      "rejected": 58,
+      "turnout_pct": 62.84,
+      "winner": {
+        "name": "A. Ned Traep",
+        "party": "PNP",
+        "votes": 6481
+      },
+      "margin": 937,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6481,
+          "name": "A. Ned Traep"
+        },
+        {
+          "party": "JLP",
+          "votes": 5544,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 45,
+      "constituency": "Manchester North Eastern",
+      "electors": 21754,
+      "total_votes": 15533,
+      "rejected": 75,
+      "turnout_pct": 71.4,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8436
+      },
+      "margin": 1414,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8436,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7022,
+          "name": "A. Paul Nyl"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 46,
+      "constituency": "Clarendon North Western",
+      "electors": 21004,
+      "total_votes": 14786,
+      "rejected": 63,
+      "turnout_pct": 70.4,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7828
+      },
+      "margin": 933,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7828,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 6895,
+          "name": "E. Richard Naza"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 47,
+      "constituency": "Clarendon Northern",
+      "electors": 18146,
+      "total_votes": 12095,
+      "rejected": 78,
+      "turnout_pct": 66.65,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6118
+      },
+      "margin": 227,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6118,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5891,
+          "name": "W. Horace Yellad"
+        },
+        {
+          "party": "NDM",
+          "votes": 8,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 48,
+      "constituency": "Clarendon North Central",
+      "electors": 16973,
+      "total_votes": 10147,
+      "rejected": 60,
+      "turnout_pct": 59.78,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5978
+      },
+      "margin": 1869,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5978,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4109,
+          "name": "S. Ralph Thomas"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 49,
+      "constituency": "Clarendon Central",
+      "electors": 20520,
+      "total_votes": 10398,
+      "rejected": 19,
+      "turnout_pct": 50.67,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6944
+      },
+      "margin": 3509,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6944,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 3435,
+          "name": "W. Len Gligcm"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 50,
+      "constituency": "Clarendon South Western",
+      "electors": 19587,
+      "total_votes": 12645,
+      "rejected": 57,
+      "turnout_pct": 64.56,
+      "winner": {
+        "name": "Leon Ottscra",
+        "party": "PNP",
+        "votes": 6913
+      },
+      "margin": 1238,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6913,
+          "name": "Leon Ottscra"
+        },
+        {
+          "party": "JLP",
+          "votes": 5675,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 51,
+      "constituency": "Clarendon South Eastern",
+      "electors": 28389,
+      "total_votes": 16643,
+      "rejected": 69,
+      "turnout_pct": 58.62,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9421
+      },
+      "margin": 2268,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9421,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7153,
+          "name": "A. Seacis Llewsnrab"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 52,
+      "constituency": "Saint Catherine North Western",
+      "electors": 25521,
+      "total_votes": 13398,
+      "rejected": 38,
+      "turnout_pct": 52.5,
+      "winner": {
+        "name": "D. Robert Gligsrekcip",
+        "party": "PNP",
+        "votes": 7696
+      },
+      "margin": 2073,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7696,
+          "name": "D. Robert Gligsrekcip"
+        },
+        {
+          "party": "JLP",
+          "votes": 5623,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 41,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 53,
+      "constituency": "Saint Catherine South Western",
+      "electors": 31128,
+      "total_votes": 17854,
+      "rejected": 122,
+      "turnout_pct": 57.36,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 10488
+      },
+      "margin": 3244,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 10488,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7244,
+          "name": "E. Dennis Jones"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 54,
+      "constituency": "Saint Catherine Southern",
+      "electors": 30763,
+      "total_votes": 17370,
+      "rejected": 87,
+      "turnout_pct": 56.46,
+      "winner": {
+        "name": "A. Tiff Jackson",
+        "party": "PNP",
+        "votes": 9337
+      },
+      "margin": 1420,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9337,
+          "name": "A. Tiff Jackson"
+        },
+        {
+          "party": "JLP",
+          "votes": 7917,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 29,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 55,
+      "constituency": "Saint Catherine Central",
+      "electors": 24286,
+      "total_votes": 12132,
+      "rejected": 75,
+      "turnout_pct": 49.95,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9382
+      },
+      "margin": 6743,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9382,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 2639,
+          "name": "D. Nahor Arevlis"
+        },
+        {
+          "party": "NDM",
+          "votes": 36,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 56,
+      "constituency": "Saint Catherine South Eastern",
+      "electors": 26392,
+      "total_votes": 14403,
+      "rejected": 97,
+      "turnout_pct": 54.57,
+      "winner": {
+        "name": "Nikol Nagaf",
+        "party": "PNP",
+        "votes": 7292
+      },
+      "margin": 305,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7292,
+          "name": "Nikol Nagaf"
+        },
+        {
+          "party": "JLP",
+          "votes": 6987,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 16,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 11,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 57,
+      "constituency": "Saint Catherine East Central",
+      "electors": 24869,
+      "total_votes": 13906,
+      "rejected": 61,
+      "turnout_pct": 55.92,
+      "winner": {
+        "name": "Eilatan Yelaeh-Atien",
+        "party": "PNP",
+        "votes": 7542
+      },
+      "margin": 1306,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7542,
+          "name": "Eilatan Yelaeh-Atien"
+        },
+        {
+          "party": "JLP",
+          "votes": 6236,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 67,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 58,
+      "constituency": "Saint Catherine West Central",
+      "electors": 24028,
+      "total_votes": 12499,
+      "rejected": 105,
+      "turnout_pct": 52.02,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7321
+      },
+      "margin": 2248,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7321,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5073,
+          "name": "C. Homer White"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 59,
+      "constituency": "Saint Catherine North Eastern",
+      "electors": 18289,
+      "total_votes": 11221,
+      "rejected": 52,
+      "turnout_pct": 61.35,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6064
+      },
+      "margin": 959,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6064,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5105,
+          "name": "M. Sylvia Mitchell"
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 60,
+      "constituency": "Saint Catherine South Central",
+      "electors": 27845,
+      "total_votes": 16988,
+      "rejected": 99,
+      "turnout_pct": 61.01,
+      "winner": {
+        "name": "M. Sarah Retsbew-Yah",
+        "party": "PNP",
+        "votes": 8953
+      },
+      "margin": 1017,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8953,
+          "name": "M. Sarah Retsbew-Yah"
+        },
+        {
+          "party": "JLP",
+          "votes": 7936,
+          "name": null
+        },
+        {
+          "party": "IEWFIPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "INA",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JBF",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    }
+  ]
+}

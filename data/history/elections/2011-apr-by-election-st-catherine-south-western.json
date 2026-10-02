@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — April 4, 2011",
+    "source": "https://www.ecj.com.jm/election-results/st-catherine-south-western-election-2011/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2011StCatherineSouthWesternBy-ElectionSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2011By-ElectionStCatherineSouthWesternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:13:31Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2011-apr-by-election-st-catherine-south-western",
+    "year": 2011,
+    "date": "April 4, 2011",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 53,
+      "constituency": "Saint Catherine South Western",
+      "electors": 37151,
+      "total_votes": 9248,
+      "rejected": 81,
+      "turnout_pct": 24.89,
+      "winner": {
+        "name": "Carlos C. N. Cliff",
+        "party": "JLP",
+        "votes": 5908
+      },
+      "margin": 2932,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5908,
+          "name": "Carlos C. N. Cliff"
+        },
+        {
+          "party": "IND",
+          "votes": 2976,
+          "name": null
+        },
+        {
+          "party": "NNC",
+          "votes": 175,
+          "name": null
+        },
+        {
+          "party": "MGPPP",
+          "votes": 60,
+          "name": null
+        },
+        {
+          "party": "JAM",
+          "votes": 48,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — June 16, 2009",
+    "source": "https://www.ecj.com.jm/election-results/st-catherine-north-eastern-election-2009/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionStCatherineNorthEasternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionStCatherineNorthEasternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:16:22Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2009-jun-by-election-st-catherine-north-eastern",
+    "year": 2009,
+    "date": "June 16, 2009",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 59,
+      "constituency": "Saint Catherine North Eastern",
+      "electors": 18984,
+      "total_votes": 10070,
+      "rejected": 56,
+      "turnout_pct": 53.04,
+      "winner": {
+        "name": "Gregory Mair",
+        "party": "JLP",
+        "votes": 6337
+      },
+      "margin": 2660,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6337,
+          "name": "Gregory Mair"
+        },
+        {
+          "party": "PNP",
+          "votes": 3677,
+          "name": "Granville Valentine"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

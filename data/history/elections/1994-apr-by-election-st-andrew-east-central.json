@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — April 26, 1994",
+    "source": "https://www.ecj.com.jm/election-results/st-andrew-east-central-by-election-1994/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2024/02/1994StAndrewEastCentralBy-ElectionResults.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:23:47Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "1994-apr-by-election-st-andrew-east-central",
+    "year": 1994,
+    "date": "April 26, 1994",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 0,
+    "needs_check": 1,
+    "seats_by_party": {
+      "PNP": 1
+    }
+  },
+  "results": [
+    {
+      "number": null,
+      "constituency": "Saint Andrew East Central",
+      "electors": null,
+      "total_votes": 10688,
+      "rejected": null,
+      "turnout_pct": null,
+      "winner": {
+        "name": "PHILLIPS PETER D.",
+        "party": "PNP",
+        "votes": 10346
+      },
+      "margin": 10167,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 10346,
+          "name": "PHILLIPS PETER D."
+        },
+        {
+          "party": "RP",
+          "votes": 179,
+          "name": "FRANCIS JAMES"
+        },
+        {
+          "party": "UPP",
+          "votes": 73,
+          "name": "BLAKE NOEL A."
+        }
+      ],
+      "status": "check",
+      "notes": [
+        "candidate votes 10598 + rejected None != total 10688"
+      ],
+      "source_page": null
+    }
+  ]
+}

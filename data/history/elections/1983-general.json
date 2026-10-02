@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Jamaica general election — December 15, 1983",
+    "source": "https://www.ecj.com.jm/election-results/general-election-1983/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/1983GeneralElectionSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/1983GeneralElectionBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-02T01:20:49Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "1983-general",
+    "year": 1983,
+    "date": "December 15, 1983",
+    "type": "General Election"
+  },
+  "summary": {
+    "seats": 6,
+    "verified": 6,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 6
+    },
+    "expected_seats": 60,
+    "complete": false,
+    "matches_published_result": false
+  },
+  "results": [
+    {
+      "number": null,
+      "constituency": "Kingston West Central",
+      "electors": 11328,
+      "total_votes": 4837,
+      "rejected": 362,
+      "turnout_pct": 42.7,
+      "winner": {
+        "name": "SMITH, Derrick C.",
+        "party": "JLP",
+        "votes": 4426
+      },
+      "margin": 4377,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 4426,
+          "name": "SMITH, Derrick C."
+        },
+        {
+          "party": "RP",
+          "votes": 49,
+          "name": "SMITH, V.G."
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    },
+    {
+      "number": null,
+      "constituency": "Saint Andrew West Rural",
+      "electors": 24024,
+      "total_votes": 6392,
+      "rejected": 17,
+      "turnout_pct": 26.61,
+      "winner": {
+        "name": "GILMOUR, Mavis",
+        "party": "JLP",
+        "votes": 6167
+      },
+      "margin": 5959,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6167,
+          "name": "GILMOUR, Mavis"
+        },
+        {
+          "party": "RP",
+          "votes": 208,
+          "name": "SMITH, Clive"
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    },
+    {
+      "number": null,
+      "constituency": "Saint Mary Western",
+      "electors": 15985,
+      "total_votes": 4188,
+      "rejected": 20,
+      "turnout_pct": 26.2,
+      "winner": {
+        "name": "KNIGHT, Hyacinth M",
+        "party": "JLP",
+        "votes": 3464
+      },
+      "margin": 2760,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 3464,
+          "name": "KNIGHT, Hyacinth M"
+        },
+        {
+          "party": "CCM",
+          "votes": 704,
+          "name": "FARRELL, John E."
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    },
+    {
+      "number": null,
+      "constituency": "Saint Ann South Eastern",
+      "electors": 13949,
+      "total_votes": 3472,
+      "rejected": 24,
+      "turnout_pct": 24.89,
+      "winner": {
+        "name": "PINK, Patricia",
+        "party": "JLP",
+        "votes": 3185
+      },
+      "margin": 3041,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 3185,
+          "name": "PINK, Patricia"
+        },
+        {
+          "party": "JUF",
+          "votes": 144,
+          "name": "JOHNSON, H.C."
+        },
+        {
+          "party": "IND",
+          "votes": 119,
+          "name": "CAMMOCK, Hugh"
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    },
+    {
+      "number": null,
+      "constituency": "Saint James East Central",
+      "electors": 11613,
+      "total_votes": 3689,
+      "rejected": 41,
+      "turnout_pct": 31.77,
+      "winner": {
+        "name": "ROACH, Geoffrey C.",
+        "party": "JLP",
+        "votes": 3203
+      },
+      "margin": 2758,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 3203,
+          "name": "ROACH, Geoffrey C."
+        },
+        {
+          "party": "IND",
+          "votes": 445,
+          "name": "DAWKINS, Matelan"
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    },
+    {
+      "number": null,
+      "constituency": "Westmoreland Western",
+      "electors": 13120,
+      "total_votes": 3965,
+      "rejected": 24,
+      "turnout_pct": 30.22,
+      "winner": {
+        "name": "COOKE, Buxton W.",
+        "party": "JLP",
+        "votes": 2918
+      },
+      "margin": 1895,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 2918,
+          "name": "COOKE, Buxton W."
+        },
+        {
+          "party": "IND",
+          "votes": 1023,
+          "name": "LINDSAY, William"
+        }
+      ],
+      "status": "verified",
+      "source_page": 4
+    }
+  ]
+}

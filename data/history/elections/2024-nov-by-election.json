@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — November 22, 2024",
+    "source": "https://www.ecj.com.jm/election-results/by-election-2024/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2024/11/November2024ByElectionBoxByBoxResultParliamentary.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:05:44Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2024-nov-by-election",
+    "year": 2024,
+    "date": "November 22, 2024",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 2,
+    "verified": 0,
+    "needs_check": 2,
+    "seats_by_party": {
+      "IND": 1,
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 14,
+      "constituency": "Saint Andrew North Western",
+      "electors": null,
+      "total_votes": 1996,
+      "rejected": null,
+      "turnout_pct": null,
+      "winner": {
+        "name": "MARSHALL CARL O'NEAL",
+        "party": "IND",
+        "votes": 1857
+      },
+      "margin": 1746,
+      "candidates": [
+        {
+          "party": "IND",
+          "votes": 1857,
+          "name": "MARSHALL CARL O'NEAL"
+        },
+        {
+          "party": "IND",
+          "votes": 111,
+          "name": "BANKS ROHAN"
+        },
+        {
+          "party": "JLP",
+          "votes": 0,
+          "name": "SMITH DUANE C. E."
+        }
+      ],
+      "status": "check",
+      "notes": [
+        "candidate votes 1968 + rejected None != total 1996"
+      ],
+      "source_page": null
+    },
+    {
+      "number": 28,
+      "constituency": "Trelawny Southern",
+      "electors": null,
+      "total_votes": 5657,
+      "rejected": null,
+      "turnout_pct": null,
+      "winner": {
+        "name": "DALRYMPLE-PHILIBERT MARISA",
+        "party": "JLP",
+        "votes": 4153
+      },
+      "margin": 2715,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 4153,
+          "name": "DALRYMPLE-PHILIBERT MARISA"
+        },
+        {
+          "party": "IND",
+          "votes": 1438,
+          "name": "GILLINGS LLOYD \"MOZY\""
+        }
+      ],
+      "status": "check",
+      "notes": [
+        "candidate votes 5591 + rejected None != total 5657"
+      ],
+      "source_page": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — October 30, 2017",
+    "source": "https://www.ecj.com.jm/election-results/by-election-2017/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2017By-ElectionSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2017By-ElectionsBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:07:41Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2017-oct-by-election",
+    "year": 2017,
+    "date": "October 30, 2017",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 3,
+    "verified": 3,
+    "needs_check": 0,
+    "seats_by_party": {
+      "PNP": 2,
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 8,
+      "constituency": "Saint Andrew South Western",
+      "electors": 25670,
+      "total_votes": 6659,
+      "rejected": 112,
+      "turnout_pct": 25.94,
+      "winner": {
+        "name": "Angela Brown Burke",
+        "party": "PNP",
+        "votes": 6324
+      },
+      "margin": 6101,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6324,
+          "name": "Angela Brown Burke"
+        },
+        {
+          "party": "JLP",
+          "votes": 223,
+          "name": "Anthony Hyde"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 9,
+      "constituency": "Saint Andrew Southern",
+      "electors": 23533,
+      "total_votes": 7085,
+      "rejected": 108,
+      "turnout_pct": 30.11,
+      "winner": {
+        "name": "Mark Golding",
+        "party": "PNP",
+        "votes": 6203
+      },
+      "margin": 5429,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6203,
+          "name": "Mark Golding"
+        },
+        {
+          "party": "JLP",
+          "votes": 774,
+          "name": "Dane Dennis"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 20,
+      "constituency": "Saint Mary South Eastern",
+      "electors": 25251,
+      "total_votes": 15509,
+      "rejected": 94,
+      "turnout_pct": 61.42,
+      "winner": {
+        "name": "Alexander Norman Dunn",
+        "party": "JLP",
+        "votes": 8169
+      },
+      "margin": 923,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8169,
+          "name": "Alexander Norman Dunn"
+        },
+        {
+          "party": "PNP",
+          "votes": 7246,
+          "name": "Shane Alexis"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

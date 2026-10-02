@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — April 4, 2019",
+    "source": "https://www.ecj.com.jm/election-results/portland-eastern-election-2019/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2019/04/PortlandEasternByElection2019ResultsSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2019/04/PortlandEasternByElection2019ResultsDetail.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:06:22Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2019-apr-by-election-portland-eastern",
+    "year": 2019,
+    "date": "April 4, 2019",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 5,
+    "verified": 5,
+    "needs_check": 0,
+    "seats_by_party": {
+      "PNP": 3,
+      "JLP": 2
+    }
+  },
+  "results": [
+    {
+      "number": 1,
+      "constituency": "Port Antonio",
+      "electors": 8420,
+      "total_votes": 4285,
+      "rejected": 11,
+      "turnout_pct": 50.89,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 2393
+      },
+      "margin": 512,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 2393,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 1881,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 2,
+      "constituency": "Prospect",
+      "electors": 8101,
+      "total_votes": 4178,
+      "rejected": 12,
+      "turnout_pct": 51.57,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 2329
+      },
+      "margin": 492,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 2329,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 1837,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 3,
+      "constituency": "Fairy Hill",
+      "electors": 6878,
+      "total_votes": 3815,
+      "rejected": 17,
+      "turnout_pct": 55.47,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 2343
+      },
+      "margin": 888,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 2343,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 1455,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 4,
+      "constituency": "Manchioneal",
+      "electors": 6383,
+      "total_votes": 3670,
+      "rejected": 23,
+      "turnout_pct": 57.5,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 2107
+      },
+      "margin": 567,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 2107,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 1540,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 5,
+      "constituency": "Fellowship",
+      "electors": 6533,
+      "total_votes": 3786,
+      "rejected": 12,
+      "turnout_pct": 57.95,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 1953
+      },
+      "margin": 132,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 1953,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 1821,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — March 8, 2001",
+    "source": "https://www.ecj.com.jm/election-results/st-ann-north-eastern-election-2001/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2001By-ElectionStAnnNorthEasternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2001By-ElectionStAnnNorthEasternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:20:37Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2001-mar-by-election-st-ann-north-eastern",
+    "year": 2001,
+    "date": "March 8, 2001",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 24,
+      "constituency": "Saint Ann North Eastern",
+      "electors": 27437,
+      "total_votes": 15982,
+      "rejected": 77,
+      "turnout_pct": 58.25,
+      "winner": {
+        "name": "Enihahs Robinson",
+        "party": "JLP",
+        "votes": 7797
+      },
+      "margin": 473,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7797,
+          "name": "Enihahs Robinson"
+        },
+        {
+          "party": "PNP",
+          "votes": 7324,
+          "name": "Lorac Jackson"
+        },
+        {
+          "party": "NDM",
+          "votes": 742,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 42,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

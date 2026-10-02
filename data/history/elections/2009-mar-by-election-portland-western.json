@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — March 23, 2009",
+    "source": "https://www.ecj.com.jm/election-results/portland-western-election-2009/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionPortlandWesternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2009By-ElectionPortlandWesternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:16:37Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2009-mar-by-election-portland-western",
+    "year": 2009,
+    "date": "March 23, 2009",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 19,
+      "constituency": "Portland Western",
+      "electors": 18723,
+      "total_votes": 13641,
+      "rejected": 53,
+      "turnout_pct": 72.86,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7927
+      },
+      "margin": 2294,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7927,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5633,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 28,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

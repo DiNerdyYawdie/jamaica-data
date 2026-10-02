@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — June 7, 2006",
+    "source": "https://www.ecj.com.jm/election-results/westmoreland-eastern-election-2006/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2006By-ElectionWestmorelandEasternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2006By-ElectionWestmorelandEasternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:18:28Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2006-jun-by-election-westmoreland-eastern",
+    "year": 2006,
+    "date": "June 7, 2006",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "PNP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 37,
+      "constituency": "Westmoreland Eastern",
+      "electors": 21876,
+      "total_votes": 9762,
+      "rejected": 17,
+      "turnout_pct": 44.62,
+      "winner": {
+        "name": "Rotsa Dni",
+        "party": "PNP",
+        "votes": 6400
+      },
+      "margin": 3099,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6400,
+          "name": "Rotsa Dni"
+        },
+        {
+          "party": "JLP",
+          "votes": 3301,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 44,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

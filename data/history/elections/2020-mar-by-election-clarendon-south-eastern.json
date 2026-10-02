@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — March 2, 2020",
+    "source": "https://www.ecj.com.jm/election-results/clarendon-south-eastern-by-election/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2020/03/Clarendon-South-Eastern-By-Election-Results-Summary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2020/03/Clarendon-South-Eastern-By-Election-Results-Detail.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-3.5-flash) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-09-30T02:30:51Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2020-mar-by-election-clarendon-south-eastern",
+    "year": 2020,
+    "date": "March 2, 2020",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 52,
+      "constituency": "Clarendon South Eastern",
+      "electors": 41308,
+      "total_votes": 7706,
+      "rejected": 119,
+      "turnout_pct": 18.65,
+      "winner": {
+        "name": "Pearnel P. Charles Jr.",
+        "party": "JLP",
+        "votes": 6846
+      },
+      "margin": 6105,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6846,
+          "name": "Pearnel P. Charles Jr."
+        },
+        {
+          "party": "IND",
+          "votes": 741,
+          "name": "Dereck Lloyd Lambert"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

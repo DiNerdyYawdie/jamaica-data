@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — April 13, 2005",
+    "source": "https://www.ecj.com.jm/election-results/kingston-western-election-2005/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2005By-ElectionKingstonWesternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2005By-ElectionKingstonWesternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:18:37Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2005-apr-by-election-kingston-western",
+    "year": 2005,
+    "date": "April 13, 2005",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 1,
+      "constituency": "Kingston Western",
+      "electors": 17565,
+      "total_votes": 9772,
+      "rejected": 67,
+      "turnout_pct": 55.63,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8503
+      },
+      "margin": 7322,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8503,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 1181,
+          "name": null
+        },
+        {
+          "party": "NDM",
+          "votes": 12,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 9,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

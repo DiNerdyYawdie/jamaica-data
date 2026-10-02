@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — March 5, 2018",
+    "source": "https://www.ecj.com.jm/election-results/st-andrew-north-western-election-2018/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2018/04/St.-Andrew-North-Western-By-Election-2018-Box-By-Box-Results-Summary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2018/04/St.-Andrew-North-Western-By-Election-2018-Box-By-Box-Results.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:06:59Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2018-mar-by-election-st-andrew-north-western",
+    "year": 2018,
+    "date": "March 5, 2018",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 14,
+      "constituency": "Saint Andrew North Western",
+      "electors": 30216,
+      "total_votes": 7337,
+      "rejected": 71,
+      "turnout_pct": 24.28,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 4457
+      },
+      "margin": 1648,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 4457,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 2809,
+          "name": "Keisha Marie Gayle"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

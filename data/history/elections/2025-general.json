@@ -1,0 +1,2758 @@
+{
+  "meta": {
+    "title": "Jamaica general election — September 3, 2025",
+    "source": "https://www.ecj.com.jm/election-results/general-election-2025/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2025/09/2025-General-Election-Summary-Results-1.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2025/09/2025-General-Election-Box-By-Box-Results-Electoral-Dvns-1.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:05:28Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2025-general",
+    "year": 2025,
+    "date": "September 3, 2025",
+    "type": "General Election"
+  },
+  "summary": {
+    "seats": 63,
+    "verified": 63,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 35,
+      "PNP": 28
+    },
+    "expected_seats": 63,
+    "complete": true
+  },
+  "results": [
+    {
+      "number": 1,
+      "constituency": "Kingston West",
+      "electors": 24701,
+      "total_votes": 10072,
+      "rejected": 128,
+      "turnout_pct": 40.78,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8517
+      },
+      "margin": 7118,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8517,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 1399,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 28,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 2,
+      "constituency": "Kingston Central",
+      "electors": 23060,
+      "total_votes": 9757,
+      "rejected": 149,
+      "turnout_pct": 42.31,
+      "winner": {
+        "name": "Roger Gager",
+        "party": "JLP",
+        "votes": 4832
+      },
+      "margin": 79,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 4832,
+          "name": "Roger Gager"
+        },
+        {
+          "party": "PNP",
+          "votes": 4753,
+          "name": "Wayne Bennett"
+        },
+        {
+          "party": "UIC",
+          "votes": 23,
+          "name": "William Stevens"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 3,
+      "constituency": "Kingston East & Port Royal",
+      "electors": 27127,
+      "total_votes": 7954,
+      "rejected": 246,
+      "turnout_pct": 29.32,
+      "winner": {
+        "name": "Pauline Countryman",
+        "party": "PNP",
+        "votes": 6162
+      },
+      "margin": 4717,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6162,
+          "name": "Pauline Countryman"
+        },
+        {
+          "party": "JLP",
+          "votes": 1445,
+          "name": "R. Turner"
+        },
+        {
+          "party": "JPP",
+          "votes": 101,
+          "name": "Fanny Phillips"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "George Winston"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 4,
+      "constituency": "Saint Andrew West Rural",
+      "electors": 41703,
+      "total_votes": 15886,
+      "rejected": 181,
+      "turnout_pct": 38.09,
+      "winner": {
+        "name": "Tucker Phillips",
+        "party": "JLP",
+        "votes": 8404
+      },
+      "margin": 1175,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8404,
+          "name": "Tucker Phillips"
+        },
+        {
+          "party": "PNP",
+          "votes": 7229,
+          "name": "Juliet Cuthbert-Flynn"
+        },
+        {
+          "party": "JPP",
+          "votes": 72,
+          "name": "Wesley Gordon"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Jason Ariaisa"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 5,
+      "constituency": "Saint Andrew Western",
+      "electors": 39208,
+      "total_votes": 12896,
+      "rejected": 371,
+      "turnout_pct": 32.89,
+      "winner": {
+        "name": "Karl Anglin",
+        "party": "PNP",
+        "votes": 8087
+      },
+      "margin": 3728,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8087,
+          "name": "Karl Anglin"
+        },
+        {
+          "party": "JLP",
+          "votes": 4359,
+          "name": "David Dunlad"
+        },
+        {
+          "party": "JPP",
+          "votes": 79,
+          "name": "Marie-Claire Core"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 6,
+      "constituency": "Saint Andrew West Central",
+      "electors": 32213,
+      "total_votes": 12301,
+      "rejected": 231,
+      "turnout_pct": 38.19,
+      "winner": {
+        "name": "Donnel Kerr",
+        "party": "JLP",
+        "votes": 7090
+      },
+      "margin": 2110,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7090,
+          "name": "Donnel Kerr"
+        },
+        {
+          "party": "PNP",
+          "votes": 4980,
+          "name": "Buccanan"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Michael Holmes"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 7,
+      "constituency": "Saint Andrew East Central",
+      "electors": 32518,
+      "total_votes": 11119,
+      "rejected": 549,
+      "turnout_pct": 34.19,
+      "winner": {
+        "name": "Junior Gordon",
+        "party": "PNP",
+        "votes": 6472
+      },
+      "margin": 2458,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6472,
+          "name": "Junior Gordon"
+        },
+        {
+          "party": "JLP",
+          "votes": 4014,
+          "name": "Dennis Llessav"
+        },
+        {
+          "party": "JPP",
+          "votes": 84,
+          "name": "Princess A. Ford"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Noel David"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 8,
+      "constituency": "Saint Andrew South Western",
+      "electors": 27055,
+      "total_votes": 9344,
+      "rejected": 161,
+      "turnout_pct": 34.54,
+      "winner": {
+        "name": "B. Ind",
+        "party": "PNP",
+        "votes": 8563
+      },
+      "margin": 7978,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8563,
+          "name": "B. Ind"
+        },
+        {
+          "party": "JLP",
+          "votes": 585,
+          "name": "Angela Brown Burke"
+        },
+        {
+          "party": "IND",
+          "votes": 19,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 16,
+          "name": "Lorine Na Mann"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Mariam Watson"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 9,
+      "constituency": "Saint Andrew Southern",
+      "electors": 25939,
+      "total_votes": 10734,
+      "rejected": 273,
+      "turnout_pct": 41.38,
+      "winner": {
+        "name": "Golding Jefferson",
+        "party": "PNP",
+        "votes": 9295
+      },
+      "margin": 8129,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9295,
+          "name": "Golding Jefferson"
+        },
+        {
+          "party": "JLP",
+          "votes": 1166,
+          "name": "Nella Carlton"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Mark Smith"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 10,
+      "constituency": "Saint Andrew South Eastern",
+      "electors": 22593,
+      "total_votes": 8676,
+      "rejected": 121,
+      "turnout_pct": 38.4,
+      "winner": {
+        "name": "Yomek Robinson",
+        "party": "PNP",
+        "votes": 5392
+      },
+      "margin": 2262,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 5392,
+          "name": "Yomek Robinson"
+        },
+        {
+          "party": "JLP",
+          "votes": 3130,
+          "name": "Damion Fifth"
+        },
+        {
+          "party": "UIC",
+          "votes": 33,
+          "name": "Kevin Hylton .E"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 11,
+      "constituency": "Saint Andrew Eastern",
+      "electors": 29557,
+      "total_votes": 13475,
+      "rejected": 366,
+      "turnout_pct": 45.59,
+      "winner": {
+        "name": "Patricia Williams",
+        "party": "JLP",
+        "votes": 6737
+      },
+      "margin": 434,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6737,
+          "name": "Patricia Williams"
+        },
+        {
+          "party": "PNP",
+          "votes": 6303,
+          "name": "Karl Nudcus-Sutherland"
+        },
+        {
+          "party": "JPP",
+          "votes": 69,
+          "name": "Wayne Gillard"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": "Fairfield Shirley"
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 12,
+      "constituency": "Saint Andrew North Eastern",
+      "electors": 22098,
+      "total_votes": 9154,
+      "rejected": 146,
+      "turnout_pct": 41.42,
+      "winner": {
+        "name": "Minwah Cuckoo",
+        "party": "JLP",
+        "votes": 5286
+      },
+      "margin": 1564,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5286,
+          "name": "Minwah Cuckoo"
+        },
+        {
+          "party": "PNP",
+          "votes": 3722,
+          "name": "Orled Knight"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 13,
+      "constituency": "Saint Andrew North Central",
+      "electors": 23523,
+      "total_votes": 9179,
+      "rejected": 383,
+      "turnout_pct": 39.02,
+      "winner": {
+        "name": "Christopher Vieyra",
+        "party": "JLP",
+        "votes": 5578
+      },
+      "margin": 2360,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5578,
+          "name": "Christopher Vieyra"
+        },
+        {
+          "party": "PNP",
+          "votes": 3218,
+          "name": "B. Henry"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 14,
+      "constituency": "Saint Andrew North Western",
+      "electors": 32301,
+      "total_votes": 11258,
+      "rejected": 626,
+      "turnout_pct": 34.85,
+      "winner": {
+        "name": "Orlando Smith .E .C",
+        "party": "JLP",
+        "votes": 6313
+      },
+      "margin": 2105,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6313,
+          "name": "Orlando Smith .E .C"
+        },
+        {
+          "party": "PNP",
+          "votes": 4208,
+          "name": "Miller Simpson"
+        },
+        {
+          "party": "JPP",
+          "votes": 111,
+          "name": "Ethelyn Robinson"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 15,
+      "constituency": "Saint Andrew East Rural",
+      "electors": 42782,
+      "total_votes": 18204,
+      "rejected": 247,
+      "turnout_pct": 42.55,
+      "winner": {
+        "name": "Asemek Holmes",
+        "party": "JLP",
+        "votes": 9416
+      },
+      "margin": 973,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9416,
+          "name": "Asemek Holmes"
+        },
+        {
+          "party": "PNP",
+          "votes": 8443,
+          "name": "A. Jackson"
+        },
+        {
+          "party": "JPP",
+          "votes": 53,
+          "name": "Anna-Marie Juliet"
+        },
+        {
+          "party": "UIC",
+          "votes": 45,
+          "name": "Eunoi Richards"
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 16,
+      "constituency": "Saint Thomas Western",
+      "electors": 43087,
+      "total_votes": 17187,
+      "rejected": 54,
+      "turnout_pct": 39.89,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9340
+      },
+      "margin": 1604,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9340,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7736,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 57,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 17,
+      "constituency": "Saint Thomas Eastern",
+      "electors": 33611,
+      "total_votes": 14545,
+      "rejected": 144,
+      "turnout_pct": 43.27,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7393
+      },
+      "margin": 461,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7393,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 6932,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 45,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 31,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 18,
+      "constituency": "Portland Eastern",
+      "electors": 39751,
+      "total_votes": 16653,
+      "rejected": 31,
+      "turnout_pct": 41.89,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 8370
+      },
+      "margin": 148,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8370,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 8222,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 30,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 19,
+      "constituency": "Portland Western",
+      "electors": 24493,
+      "total_votes": 11311,
+      "rejected": 142,
+      "turnout_pct": 46.18,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6180
+      },
+      "margin": 1213,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6180,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4967,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 22,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 20,
+      "constituency": "Saint Mary South Eastern",
+      "electors": 26393,
+      "total_votes": 13430,
+      "rejected": 104,
+      "turnout_pct": 50.88,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 6659
+      },
+      "margin": 19,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6659,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 6640,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 27,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 21,
+      "constituency": "Saint Mary Central",
+      "electors": 28804,
+      "total_votes": 13049,
+      "rejected": 150,
+      "turnout_pct": 45.3,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7133
+      },
+      "margin": 1378,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7133,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 5755,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 11,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 22,
+      "constituency": "Saint Mary Western",
+      "electors": 40403,
+      "total_votes": 18023,
+      "rejected": 193,
+      "turnout_pct": 44.61,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9368
+      },
+      "margin": 941,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9368,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 8427,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 35,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 23,
+      "constituency": "Saint Ann South Eastern",
+      "electors": 32921,
+      "total_votes": 12324,
+      "rejected": 283,
+      "turnout_pct": 37.44,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7348
+      },
+      "margin": 2655,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7348,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 4693,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 24,
+      "constituency": "Saint Ann North Eastern",
+      "electors": 44637,
+      "total_votes": 16699,
+      "rejected": 299,
+      "turnout_pct": 37.41,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9557
+      },
+      "margin": 2714,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9557,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 6843,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 25,
+      "constituency": "Saint Ann North Western",
+      "electors": 41186,
+      "total_votes": 15747,
+      "rejected": 212,
+      "turnout_pct": 38.23,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8066
+      },
+      "margin": 597,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8066,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7469,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 26,
+      "constituency": "Saint Ann South Western",
+      "electors": 28425,
+      "total_votes": 12658,
+      "rejected": 405,
+      "turnout_pct": 44.53,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7257
+      },
+      "margin": 2297,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7257,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4960,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 36,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 27,
+      "constituency": "Trelawny Northern",
+      "electors": 38331,
+      "total_votes": 16606,
+      "rejected": 435,
+      "turnout_pct": 43.32,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8281
+      },
+      "margin": 391,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8281,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 7890,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 28,
+      "constituency": "Trelawny Southern",
+      "electors": 25339,
+      "total_votes": 12182,
+      "rejected": 120,
+      "turnout_pct": 48.08,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6844
+      },
+      "margin": 1626,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6844,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5218,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 29,
+      "constituency": "Saint James East Central",
+      "electors": 34192,
+      "total_votes": 11998,
+      "rejected": 61,
+      "turnout_pct": 35.09,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7473
+      },
+      "margin": 3009,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7473,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4464,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    },
+    {
+      "number": 30,
+      "constituency": "Saint James North Western",
+      "electors": 31157,
+      "total_votes": 9903,
+      "rejected": 58,
+      "turnout_pct": 31.78,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6334
+      },
+      "margin": 2823,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6334
+        },
+        {
+          "party": "PNP",
+          "votes": 3511
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "JPP",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 31,
+      "constituency": "Saint James Central",
+      "electors": 32520,
+      "total_votes": 11288,
+      "rejected": 142,
+      "turnout_pct": 34.71,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6537
+      },
+      "margin": 1928,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6537
+        },
+        {
+          "party": "PNP",
+          "votes": 4609
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "JPP",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 32,
+      "constituency": "Saint James West Central",
+      "electors": 31637,
+      "total_votes": 11726,
+      "rejected": 146,
+      "turnout_pct": 37.06,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6169
+      },
+      "margin": 777,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6169
+        },
+        {
+          "party": "PNP",
+          "votes": 5392
+        },
+        {
+          "party": "IND",
+          "votes": 19
+        },
+        {
+          "party": "JPP",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 33,
+      "constituency": "Saint James Southern",
+      "electors": 29865,
+      "total_votes": 12909,
+      "rejected": 124,
+      "turnout_pct": 43.22,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 6483
+      },
+      "margin": 199,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6483
+        },
+        {
+          "party": "JLP",
+          "votes": 6284
+        },
+        {
+          "party": "JPP",
+          "votes": 18
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 34,
+      "constituency": "Hanover Eastern",
+      "electors": 26533,
+      "total_votes": 11223,
+      "rejected": 131,
+      "turnout_pct": 42.3,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 5903
+      },
+      "margin": 756,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 5903
+        },
+        {
+          "party": "JLP",
+          "votes": 5147
+        },
+        {
+          "party": "JPP",
+          "votes": 27
+        },
+        {
+          "party": "UIC",
+          "votes": 15
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 35,
+      "constituency": "Hanover Western",
+      "electors": 34819,
+      "total_votes": 12996,
+      "rejected": 165,
+      "turnout_pct": 37.32,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 6928
+      },
+      "margin": 1041,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6928
+        },
+        {
+          "party": "JLP",
+          "votes": 5887
+        },
+        {
+          "party": "JPP",
+          "votes": 16
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 36,
+      "constituency": "Westmoreland Western",
+      "electors": 40188,
+      "total_votes": 14286,
+      "rejected": 213,
+      "turnout_pct": 35.55,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 8011
+      },
+      "margin": 2044,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8011
+        },
+        {
+          "party": "JLP",
+          "votes": 5967
+        },
+        {
+          "party": "IND",
+          "votes": 67
+        },
+        {
+          "party": "JPP",
+          "votes": 28
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 37,
+      "constituency": "Westmoreland Central",
+      "electors": 48271,
+      "total_votes": 18602,
+      "rejected": 460,
+      "turnout_pct": 38.54,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 9658
+      },
+      "margin": 1249,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9658
+        },
+        {
+          "party": "JLP",
+          "votes": 8409
+        },
+        {
+          "party": "JPP",
+          "votes": 39
+        },
+        {
+          "party": "IND",
+          "votes": 36
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 38,
+      "constituency": "Westmoreland Eastern",
+      "electors": 31270,
+      "total_votes": 13486,
+      "rejected": 102,
+      "turnout_pct": 43.13,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7580
+      },
+      "margin": 1930,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7580
+        },
+        {
+          "party": "JLP",
+          "votes": 5650
+        },
+        {
+          "party": "JPP",
+          "votes": 76
+        },
+        {
+          "party": "IND",
+          "votes": 51
+        },
+        {
+          "party": "UIC",
+          "votes": 16
+        },
+        {
+          "party": "IND",
+          "votes": 11
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 39,
+      "constituency": "Saint Elizabeth North Western",
+      "electors": 23251,
+      "total_votes": 9539,
+      "rejected": 121,
+      "turnout_pct": 41.03,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5553
+      },
+      "margin": 1728,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5553
+        },
+        {
+          "party": "PNP",
+          "votes": 3825
+        },
+        {
+          "party": "JPP",
+          "votes": 40
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 40,
+      "constituency": "Saint Elizabeth North Eastern",
+      "electors": 37138,
+      "total_votes": 16268,
+      "rejected": 316,
+      "turnout_pct": 43.8,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 8283
+      },
+      "margin": 648,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8283
+        },
+        {
+          "party": "JLP",
+          "votes": 7635
+        },
+        {
+          "party": "JPP",
+          "votes": 20
+        },
+        {
+          "party": "UIC",
+          "votes": 14
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 41,
+      "constituency": "Saint Elizabeth South Western",
+      "electors": 34346,
+      "total_votes": 18390,
+      "rejected": 150,
+      "turnout_pct": 53.54,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9738
+      },
+      "margin": 1236,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9738
+        },
+        {
+          "party": "PNP",
+          "votes": 8502
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 42,
+      "constituency": "Saint Elizabeth South Eastern",
+      "electors": 33109,
+      "total_votes": 17201,
+      "rejected": 237,
+      "turnout_pct": 51.95,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9327
+      },
+      "margin": 1736,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9327
+        },
+        {
+          "party": "PNP",
+          "votes": 7591
+        },
+        {
+          "party": "JPP",
+          "votes": 46
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 43,
+      "constituency": "Manchester Southern",
+      "electors": 35623,
+      "total_votes": 16678,
+      "rejected": 165,
+      "turnout_pct": 46.82,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 8517
+      },
+      "margin": 543,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 8517
+        },
+        {
+          "party": "JLP",
+          "votes": 7974
+        },
+        {
+          "party": "JPP",
+          "votes": 22
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 44,
+      "constituency": "Manchester Central",
+      "electors": 42182,
+      "total_votes": 18177,
+      "rejected": 192,
+      "turnout_pct": 43.09,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9089
+      },
+      "margin": 193,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9089
+        },
+        {
+          "party": "PNP",
+          "votes": 8896
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 45,
+      "constituency": "Manchester North Western",
+      "electors": 30282,
+      "total_votes": 13033,
+      "rejected": 109,
+      "turnout_pct": 43.04,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7013
+      },
+      "margin": 1130,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7013
+        },
+        {
+          "party": "JLP",
+          "votes": 5883
+        },
+        {
+          "party": "JPP",
+          "votes": 28
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 46,
+      "constituency": "Manchester North Eastern",
+      "electors": 31349,
+      "total_votes": 14556,
+      "rejected": 124,
+      "turnout_pct": 46.43,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 8147
+      },
+      "margin": 1895,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 8147
+        },
+        {
+          "party": "PNP",
+          "votes": 6252
+        },
+        {
+          "party": "JPP",
+          "votes": 33
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 47,
+      "constituency": "Clarendon North Western",
+      "electors": 28701,
+      "total_votes": 13576,
+      "rejected": 107,
+      "turnout_pct": 47.3,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 6938
+      },
+      "margin": 430,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6938
+        },
+        {
+          "party": "JLP",
+          "votes": 6508
+        },
+        {
+          "party": "JPP",
+          "votes": 23
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 48,
+      "constituency": "Clarendon Northern",
+      "electors": 25357,
+      "total_votes": 11802,
+      "rejected": 81,
+      "turnout_pct": 46.54,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 5940
+      },
+      "margin": 184,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 5940
+        },
+        {
+          "party": "JLP",
+          "votes": 5756
+        },
+        {
+          "party": "JPP",
+          "votes": 25
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 49,
+      "constituency": "Clarendon North Central",
+      "electors": 24854,
+      "total_votes": 10458,
+      "rejected": 92,
+      "turnout_pct": 42.08,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5894
+      },
+      "margin": 1450,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5894
+        },
+        {
+          "party": "PNP",
+          "votes": 4444
+        },
+        {
+          "party": "JPP",
+          "votes": 28
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 50,
+      "constituency": "Clarendon Central",
+      "electors": 33321,
+      "total_votes": 10733,
+      "rejected": 142,
+      "turnout_pct": 32.21,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6630
+      },
+      "margin": 2708,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6630
+        },
+        {
+          "party": "PNP",
+          "votes": 3922
+        },
+        {
+          "party": "JPP",
+          "votes": 39
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 51,
+      "constituency": "Clarendon South Western",
+      "electors": 30265,
+      "total_votes": 12542,
+      "rejected": 138,
+      "turnout_pct": 41.44,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7333
+      },
+      "margin": 2304,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7333
+        },
+        {
+          "party": "JLP",
+          "votes": 5029
+        },
+        {
+          "party": "JPP",
+          "votes": 42
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 52,
+      "constituency": "Clarendon South Eastern",
+      "electors": 46496,
+      "total_votes": 17893,
+      "rejected": 236,
+      "turnout_pct": 38.48,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9594
+      },
+      "margin": 1586,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9594
+        },
+        {
+          "party": "PNP",
+          "votes": 8008
+        },
+        {
+          "party": "JPP",
+          "votes": 55
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 53,
+      "constituency": "Saint Catherine North Western",
+      "electors": 37295,
+      "total_votes": 12543,
+      "rejected": 113,
+      "turnout_pct": 33.63,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7658
+      },
+      "margin": 2907,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7658
+        },
+        {
+          "party": "JLP",
+          "votes": 4751
+        },
+        {
+          "party": "JPP",
+          "votes": 21
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 54,
+      "constituency": "Saint Catherine South Western",
+      "electors": 43851,
+      "total_votes": 19386,
+      "rejected": 524,
+      "turnout_pct": 44.21,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 10400
+      },
+      "margin": 2034,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 10400
+        },
+        {
+          "party": "PNP",
+          "votes": 8366
+        },
+        {
+          "party": "JPP",
+          "votes": 96
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 55,
+      "constituency": "Saint Catherine Southern",
+      "electors": 43810,
+      "total_votes": 15324,
+      "rejected": 206,
+      "turnout_pct": 34.98,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 9003
+      },
+      "margin": 3022,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 9003
+        },
+        {
+          "party": "JLP",
+          "votes": 5981
+        },
+        {
+          "party": "JPP",
+          "votes": 134
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 56,
+      "constituency": "Saint Catherine Central",
+      "electors": 33527,
+      "total_votes": 11269,
+      "rejected": 232,
+      "turnout_pct": 33.61,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 9044
+      },
+      "margin": 7051,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 9044
+        },
+        {
+          "party": "PNP",
+          "votes": 1993
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 57,
+      "constituency": "Saint Catherine South Eastern",
+      "electors": 41273,
+      "total_votes": 15255,
+      "rejected": 345,
+      "turnout_pct": 36.96,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7658
+      },
+      "margin": 470,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7658
+        },
+        {
+          "party": "JLP",
+          "votes": 7188
+        },
+        {
+          "party": "JPP",
+          "votes": 64
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 58,
+      "constituency": "Saint Catherine North Central",
+      "electors": 33513,
+      "total_votes": 11531,
+      "rejected": 172,
+      "turnout_pct": 34.41,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 7062
+      },
+      "margin": 2808,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 7062
+        },
+        {
+          "party": "JLP",
+          "votes": 4254
+        },
+        {
+          "party": "JPP",
+          "votes": 43
+        },
+        {
+          "party": "IND",
+          "votes": 0
+        },
+        {
+          "party": "UIC",
+          "votes": 0
+        }
+      ],
+      "status": "verified",
+      "source_page": 2
+    },
+    {
+      "number": 59,
+      "constituency": "Saint Catherine West Central",
+      "electors": 32368,
+      "total_votes": 10854,
+      "rejected": 118,
+      "turnout_pct": 33.53,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 6917
+      },
+      "margin": 3177,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 6917,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 3740,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 79,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 3
+    },
+    {
+      "number": 60,
+      "constituency": "Saint Catherine North Eastern",
+      "electors": 24877,
+      "total_votes": 10347,
+      "rejected": 233,
+      "turnout_pct": 41.59,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5554
+      },
+      "margin": 1035,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5554,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 4519,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 21,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 20,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 3
+    },
+    {
+      "number": 61,
+      "constituency": "Saint Catherine Eastern",
+      "electors": 34746,
+      "total_votes": 11427,
+      "rejected": 149,
+      "turnout_pct": 32.89,
+      "winner": {
+        "name": null,
+        "party": "PNP",
+        "votes": 6778
+      },
+      "margin": 2356,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 6778,
+          "name": null
+        },
+        {
+          "party": "JLP",
+          "votes": 4422,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 78,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 3
+    },
+    {
+      "number": 62,
+      "constituency": "Saint Catherine South Central",
+      "electors": 31014,
+      "total_votes": 10716,
+      "rejected": 153,
+      "turnout_pct": 34.55,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 7639
+      },
+      "margin": 4788,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 7639,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 2851,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 73,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 3
+    },
+    {
+      "number": 63,
+      "constituency": "Saint Catherine East Central",
+      "electors": 31041,
+      "total_votes": 11960,
+      "rejected": 898,
+      "turnout_pct": 38.53,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5934
+      },
+      "margin": 806,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5934,
+          "name": null
+        },
+        {
+          "party": "PNP",
+          "votes": 5128,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "IND",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "JPP",
+          "votes": 0,
+          "name": null
+        },
+        {
+          "party": "UIC",
+          "votes": 0,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 3
+    }
+  ]
+}

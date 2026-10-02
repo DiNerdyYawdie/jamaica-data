@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — August 25, 1994",
+    "source": "https://www.ecj.com.jm/election-results/st-catherine-southern-by-election-1994/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2024/02/1994StCatherineSouthernBy-Election.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:23:34Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "1994-aug-by-election-st-catherine-southern",
+    "year": 1994,
+    "date": "August 25, 1994",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "PNP": 1
+    }
+  },
+  "results": [
+    {
+      "number": null,
+      "constituency": "Saint Catherine Southern",
+      "electors": 12663,
+      "total_votes": 2345,
+      "rejected": 4,
+      "turnout_pct": 18.52,
+      "winner": {
+        "name": "FITZ A. JACKSON",
+        "party": "PNP",
+        "votes": 2051
+      },
+      "margin": 1761,
+      "candidates": [
+        {
+          "party": "PNP",
+          "votes": 2051,
+          "name": "FITZ A. JACKSON"
+        },
+        {
+          "party": "RPJ",
+          "votes": 290,
+          "name": "VINCENT G. SMITH"
+        }
+      ],
+      "status": "verified",
+      "source_page": null
+    }
+  ]
+}

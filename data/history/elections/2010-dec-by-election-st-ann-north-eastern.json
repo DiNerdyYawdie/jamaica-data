@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Jamaica by-election — December 20, 2010",
+    "source": "https://www.ecj.com.jm/election-results/st-ann-north-eastern-election-2010/",
+    "source_pdfs": [
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2010By-ElectionStAnnNorthEasternSummary.pdf",
+      "https://www.ecj.com.jm/wp-content/uploads/2017/12/2010By-ElectionStAnnNorthEasternBoxbyBox.pdf"
+    ],
+    "extracted_with": "Gemini (gemini-flash-latest) from ECJ PDFs, checked against printed totals",
+    "extracted_at": "2026-10-01T15:13:46Z",
+    "license": "Public record (Electoral Commission of Jamaica)"
+  },
+  "election": {
+    "id": "2010-dec-by-election-st-ann-north-eastern",
+    "year": 2010,
+    "date": "December 20, 2010",
+    "type": "By-Election"
+  },
+  "summary": {
+    "seats": 1,
+    "verified": 1,
+    "needs_check": 0,
+    "seats_by_party": {
+      "JLP": 1
+    }
+  },
+  "results": [
+    {
+      "number": 24,
+      "constituency": "Saint Ann North Eastern",
+      "electors": 39715,
+      "total_votes": 6212,
+      "rejected": 49,
+      "turnout_pct": 15.64,
+      "winner": {
+        "name": null,
+        "party": "JLP",
+        "votes": 5082
+      },
+      "margin": 4001,
+      "candidates": [
+        {
+          "party": "JLP",
+          "votes": 5082,
+          "name": null
+        },
+        {
+          "party": "MGPPP",
+          "votes": 1081,
+          "name": null
+        }
+      ],
+      "status": "verified",
+      "source_page": 1
+    }
+  ]
+}

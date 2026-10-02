@@ -442,6 +442,95 @@ def finalize(rows: list[dict]) -> list[dict]:
     return out
 
 
+# ---------------------------------------------------------------- tidy saved files
+# Runs over every saved election (no Gemini calls): one row per constituency, one code per party,
+# and a completeness check against the number of seats each general election actually had.
+
+SEATS_BY_YEAR = {1944: 32, 1949: 32, 1955: 32, 1959: 45, 1962: 45, 1967: 53, 1972: 53, 1976: 60, 1980: 60,
+                 1983: 60, 1989: 60, 1993: 60, 1997: 60, 2002: 60, 2007: 60, 2011: 63, 2016: 63, 2020: 63, 2025: 63}
+# Widely published seat totals, used only to flag files for review (the data itself comes from the ECJ PDFs).
+KNOWN_RESULT = {1944: {"JLP": 22, "PNP": 5, "IND": 5}, 1949: {"JLP": 17, "PNP": 13, "IND": 2}, 1955: {"PNP": 18, "JLP": 14},
+                1959: {"PNP": 29, "JLP": 16}, 1962: {"JLP": 26, "PNP": 19}, 1967: {"JLP": 33, "PNP": 20},
+                1972: {"PNP": 37, "JLP": 16}, 1976: {"PNP": 47, "JLP": 13}, 1980: {"JLP": 51, "PNP": 9}, 1983: {"JLP": 60},
+                1989: {"PNP": 45, "JLP": 15}, 1993: {"PNP": 52, "JLP": 8}, 1997: {"PNP": 50, "JLP": 10},
+                2002: {"PNP": 34, "JLP": 26}, 2007: {"JLP": 32, "PNP": 28}, 2011: {"PNP": 42, "JLP": 21},
+                2016: {"JLP": 32, "PNP": 31}, 2020: {"JLP": 49, "PNP": 14}}
+
+
+def party_code(p: str | None) -> str:
+    """'P. N. P.', 'P.N.P' → PNP; 'J.L.P.', 'Lab.' (Jamaica Labour Party, 1940s) → JLP; 'Ind.' → IND."""
+    k = party_key(p or "")
+    if k in ("PNP", "PEOPLESNATIONALPARTY"):
+        return "PNP"
+    if k in ("JLP", "LAB", "LABOUR", "JAMAICALABOURPARTY"):
+        return "JLP"
+    if k.startswith("IND"):
+        return "IND"
+    return k or "?"
+
+
+def _row_rank(r: dict) -> tuple:
+    return ({"verified": 3, "check": 2, "unchecked": 1}.get(r.get("status"), 0) if r.get("candidates") else -1,
+            len(r.get("candidates") or []), r.get("electors") or 0)
+
+
+def tidy_results(results: list[dict]) -> list[dict]:
+    best: dict[str, dict] = {}
+    order: list[str] = []
+    for r in results:
+        for c in r.get("candidates") or []:
+            c["party"] = party_code(c.get("party"))
+        if r.get("winner"):
+            r["winner"]["party"] = party_code(r["winner"].get("party"))
+        # "North-eastern" / "North Eastern" / "NORTH - EASTERN" are the same seat.
+        key = norm_name(r.get("constituency") or "").replace(" ", "")
+        # Rows with no candidates are page headers or blank continuations: they carry no result.
+        if not key or not r.get("candidates"):
+            continue
+        if key not in best:
+            order.append(key)
+            best[key] = r
+        elif _row_rank(r) > _row_rank(best[key]):
+            best[key] = r
+    return [best[k] for k in order]
+
+
+def tidy_file(path: Path) -> dict:
+    doc = json.loads(path.read_text())
+    results = tidy_results(doc.get("results", []))
+    ev = doc["election"]
+    general = "general" in str(ev.get("type", "")).lower()
+    expected = SEATS_BY_YEAR.get(int(ev["year"])) if general else None
+    by_party = count_seats(results)
+    known = KNOWN_RESULT.get(int(ev["year"])) if general else None
+    doc["results"] = results
+    doc["summary"] = {
+        "seats": len(results),
+        "verified": sum(r["status"] == "verified" for r in results),
+        "needs_check": sum(r["status"] != "verified" for r in results),
+        "seats_by_party": by_party,
+        **({"expected_seats": expected, "complete": len(results) == expected} if expected else {}),
+        **({"matches_published_result": by_party == known} if known else {}),
+    }
+    path.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n")
+    return doc
+
+
+def tidy_all() -> list[tuple]:
+    """Tidy every saved election and return report rows for all of them (not just this run's)."""
+    rows = []
+    for path in sorted(OUT.glob("*.json"), reverse=True):
+        doc = tidy_file(path)
+        s = doc["summary"]
+        note = ""
+        if s.get("complete") is False:
+            note = f"⚠️ {s['seats']} of {s['expected_seats']} seats"
+        if s.get("matches_published_result") is False:
+            note = (note + " · " if note else "⚠️ ") + "differs from published result"
+        rows.append((doc["election"]["id"], s["seats"], s["verified"], json.dumps(s["seats_by_party"]) + (f" {note}" if note else "")))
+    return rows
+
+
 # ---------------------------------------------------------------- main
 
 def main() -> None:
@@ -458,7 +547,8 @@ def main() -> None:
         check_access()
         run_events(list_events(), wanted, args.force, key, report)
     finally:
-        write_report(report)
+        # Tidy every saved file and report on all of them, so the PR summary is never empty.
+        write_report(tidy_all())
 
 
 def run_events(events, wanted, force, key, report) -> None:

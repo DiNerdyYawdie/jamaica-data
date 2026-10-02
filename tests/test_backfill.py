@@ -79,3 +79,21 @@ def test_build_site_with_history(tmp_path, monkeypatch):
     seat = json.loads((work / "site/v1/constituencies/saint-andrew-southern.json").read_text())
     assert seat["data"]["elections"][0]["winner"]["name"] == "Omar Davies"
     assert json.loads((work / "site/v1/elections.json").read_text())["data"][0]["id"] == "2016-general"
+
+
+def test_tidy_merges_duplicates_and_party_codes(tmp_path, monkeypatch):
+    monkeypatch.setattr(bf, "OUT", tmp_path)
+    row = lambda name, party, votes, status="verified": {
+        "constituency": name, "candidates": [{"name": None, "party": party, "votes": votes}] if votes else [],
+        "winner": {"name": None, "party": party, "votes": votes} if votes else None, "status": status}
+    doc = {"election": {"id": "1962-general", "year": 1962, "type": "General Election"},
+           "results": [row("Saint Ann North-eastern", "J.L.P.", 900), row("ST. ANN NORTH EASTERN", None, 0, "check"),
+                       row("Kingston Western", "P. N. P.", 800), row("Hanover Eastern", "Lab.", 700)]}
+    (tmp_path / "1962-general.json").write_text(json.dumps(doc))
+    [(eid, seats, verified, parties)] = bf.tidy_all()
+    saved = json.loads((tmp_path / "1962-general.json").read_text())
+    assert seats == 3 and verified == 3
+    assert saved["summary"]["seats_by_party"] == {"JLP": 2, "PNP": 1}
+    assert saved["summary"]["complete"] is False and saved["summary"]["expected_seats"] == 45
+    assert "3 of 45 seats" in parties
+    assert bf.party_code("Ind.") == "IND" and bf.party_code("INDA") == "IND"
